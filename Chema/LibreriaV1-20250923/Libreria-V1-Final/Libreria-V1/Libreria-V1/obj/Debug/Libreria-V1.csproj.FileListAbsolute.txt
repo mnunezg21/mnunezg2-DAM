@@ -1,0 +1,10 @@
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\PRUEBAS\Libreria-V1\Libreria-V1\bin\Debug\Libreria-V1.exe.config
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\PRUEBAS\Libreria-V1\Libreria-V1\bin\Debug\Libreria-V1.exe
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\PRUEBAS\Libreria-V1\Libreria-V1\bin\Debug\Libreria-V1.pdb
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\PRUEBAS\Libreria-V1\Libreria-V1\obj\Debug\Libreria-V1.csprojResolveAssemblyReference.cache
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\PRUEBAS\Libreria-V1\Libreria-V1\obj\Debug\Libreria_V1.Libreria.resources
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\PRUEBAS\Libreria-V1\Libreria-V1\obj\Debug\Libreria_V1.Properties.Resources.resources
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\PRUEBAS\Libreria-V1\Libreria-V1\obj\Debug\Libreria-V1.csproj.GenerateResource.Cache
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\PRUEBAS\Libreria-V1\Libreria-V1\obj\Debug\Libreria-V1.csproj.CoreCompileInputs.cache
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\PRUEBAS\Libreria-V1\Libreria-V1\obj\Debug\Libreria-V1.exe
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\PRUEBAS\Libreria-V1\Libreria-V1\obj\Debug\Libreria-V1.pdb
