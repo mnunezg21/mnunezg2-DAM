@@ -13,14 +13,6 @@ namespace Prueba
         }
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
-            DialogResult result = MessageBox.Show("¿Está seguro que desea salir?",
-                                        "Confirmar",
-                                        MessageBoxButtons.YesNo);
-
-            if (result == DialogResult.No)
-            {
-                e.Cancel = true; // Cancela el cierre
-            }
         }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {

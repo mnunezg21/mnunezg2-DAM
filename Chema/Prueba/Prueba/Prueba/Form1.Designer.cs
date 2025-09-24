@@ -37,13 +37,13 @@
             fontDialog1 = new FontDialog();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
-            textBox3 = new TextBox();
             textBox4 = new TextBox();
             listBox1 = new ListBox();
             label8 = new Label();
             label9 = new Label();
             textBox5 = new TextBox();
             textBox6 = new TextBox();
+            textBox3 = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -67,7 +67,6 @@
             label2.Size = new Size(82, 35);
             label2.TabIndex = 1;
             label2.Text = "Título:";
-            label2.Click += this.label2_Click;
             // 
             // label3
             // 
@@ -98,7 +97,6 @@
             label5.Size = new Size(79, 35);
             label5.TabIndex = 4;
             label5.Text = "Tema:";
-            label5.Click += this.label5_Click;
             // 
             // label6
             // 
@@ -125,14 +123,6 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(138, 27);
             textBox2.TabIndex = 7;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(119, 165);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(138, 27);
-            textBox3.TabIndex = 7;
-            textBox3.TextChanged += this.textBox3_TextChanged;
             // 
             // textBox4
             // 
@@ -184,18 +174,25 @@
             textBox6.Size = new Size(201, 27);
             textBox6.TabIndex = 13;
             // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(112, 166);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(125, 27);
+            textBox3.TabIndex = 14;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(681, 581);
+            Controls.Add(textBox3);
             Controls.Add(textBox6);
             Controls.Add(textBox5);
             Controls.Add(label8);
             Controls.Add(label9);
             Controls.Add(listBox1);
             Controls.Add(textBox4);
-            Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label6);
@@ -222,12 +219,12 @@
         private FontDialog fontDialog1;
         private TextBox textBox1;
         private TextBox textBox2;
-        private TextBox textBox3;
         private TextBox textBox4;
         private ListBox listBox1;
         private Label label8;
         private Label label9;
         private TextBox textBox5;
         private TextBox textBox6;
+        private TextBox textBox3;
     }
 }
