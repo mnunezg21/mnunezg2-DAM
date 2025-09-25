@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\Prueba\\Prueba\\Prueba\\Prueba.csproj": {}
+    "C:\\Users\\mnune\\Documents\\github\\mnunezg2-DAM\\Chema\\Prueba\\Prueba\\Prueba\\Prueba.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\Prueba\\Prueba\\Prueba\\Prueba.csproj": {
+    "C:\\Users\\mnune\\Documents\\github\\mnunezg2-DAM\\Chema\\Prueba\\Prueba\\Prueba\\Prueba.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\Prueba\\Prueba\\Prueba\\Prueba.csproj",
+        "projectUniqueName": "C:\\Users\\mnune\\Documents\\github\\mnunezg2-DAM\\Chema\\Prueba\\Prueba\\Prueba\\Prueba.csproj",
         "projectName": "Prueba",
-        "projectPath": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\Prueba\\Prueba\\Prueba\\Prueba.csproj",
-        "packagesPath": "C:\\Users\\dam2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\Prueba\\Prueba\\Prueba\\obj\\",
+        "projectPath": "C:\\Users\\mnune\\Documents\\github\\mnunezg2-DAM\\Chema\\Prueba\\Prueba\\Prueba\\Prueba.csproj",
+        "packagesPath": "C:\\Users\\mnune\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mnune\\Documents\\github\\mnunezg2-DAM\\Chema\\Prueba\\Prueba\\Prueba\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dam2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mnune\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
