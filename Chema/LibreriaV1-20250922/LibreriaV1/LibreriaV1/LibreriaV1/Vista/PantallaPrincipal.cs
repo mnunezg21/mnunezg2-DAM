@@ -207,5 +207,9 @@ namespace LibreriaV3._1
             cbxTemas.SelectedIndex = 0;
         }
 
+        private void cbxTemas_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
