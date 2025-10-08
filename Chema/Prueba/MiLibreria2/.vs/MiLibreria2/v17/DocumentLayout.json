@@ -22,19 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\Prueba\\MiLibreria2\\MiLibreria2\\Form1.cs",
-              "RelativeDocumentMoniker": "MiLibreria2\\Form1.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\Prueba\\MiLibreria2\\MiLibreria2\\Form1.cs",
-              "RelativeToolTip": "MiLibreria2\\Form1.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA6wB8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\Prueba\\MiLibreria2\\MiLibreria2\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "MiLibreria2\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\Prueba\\MiLibreria2\\MiLibreria2\\Form1.Designer.cs",
+              "RelativeToolTip": "MiLibreria2\\Form1.Designer.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwIQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T12:00:19.813Z",
+              "WhenOpened": "2025-09-26T11:30:41.756Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -46,20 +47,20 @@
               "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\Prueba\\MiLibreria2\\MiLibreria2\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "MiLibreria2\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T11:38:12.011Z",
+              "WhenOpened": "2025-09-26T11:31:53.873Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\Prueba\\MiLibreria2\\MiLibreria2\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "MiLibreria2\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\Prueba\\MiLibreria2\\MiLibreria2\\Form1.Designer.cs",
-              "RelativeToolTip": "MiLibreria2\\Form1.Designer.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAuwFcAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\Prueba\\MiLibreria2\\MiLibreria2\\Form1.cs",
+              "RelativeDocumentMoniker": "MiLibreria2\\Form1.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\Prueba\\MiLibreria2\\MiLibreria2\\Form1.cs",
+              "RelativeToolTip": "MiLibreria2\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T11:34:47.148Z",
+              "WhenOpened": "2025-09-25T12:00:19.813Z",
               "EditorCaption": ""
             }
           ]

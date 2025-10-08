@@ -7,11 +7,6 @@ namespace MiLibreria2
             InitializeComponent();
         }
 
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
@@ -28,6 +23,31 @@ namespace MiLibreria2
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBaja_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAlta_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
         {
 
         }

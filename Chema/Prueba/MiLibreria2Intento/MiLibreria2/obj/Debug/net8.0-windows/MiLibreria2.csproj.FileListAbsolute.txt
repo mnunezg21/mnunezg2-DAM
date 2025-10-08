@@ -1,0 +1,9 @@
+C:\Users\dam2\Documents\GitHub\mnunezg2-DAM\Chema\Prueba\MiLibreria2\MiLibreria2\obj\Debug\net8.0-windows\MiLibreria2.Form1.resources
+C:\Users\dam2\Documents\GitHub\mnunezg2-DAM\Chema\Prueba\MiLibreria2\MiLibreria2\obj\Debug\net8.0-windows\MiLibreria2.csproj.GenerateResource.cache
+C:\Users\dam2\Documents\GitHub\mnunezg2-DAM\Chema\Prueba\MiLibreria2\MiLibreria2\obj\Debug\net8.0-windows\MiLibreria2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dam2\Documents\GitHub\mnunezg2-DAM\Chema\Prueba\MiLibreria2\MiLibreria2\obj\Debug\net8.0-windows\MiLibreria2.AssemblyInfoInputs.cache
+C:\Users\dam2\Documents\GitHub\mnunezg2-DAM\Chema\Prueba\MiLibreria2\MiLibreria2\obj\Debug\net8.0-windows\MiLibreria2.AssemblyInfo.cs
+C:\Users\dam2\Documents\GitHub\mnunezg2-DAM\Chema\Prueba\MiLibreria2\MiLibreria2\obj\Debug\net8.0-windows\MiLibreria2.csproj.CoreCompileInputs.cache
+C:\Users\dam2\Documents\GitHub\mnunezg2-DAM\Chema\Prueba\MiLibreria2\MiLibreria2\obj\Debug\net8.0-windows\MiLibreria2.sourcelink.json
+C:\Users\dam2\Documents\GitHub\mnunezg2-DAM\Chema\Prueba\MiLibreria2\MiLibreria2\obj\Debug\net8.0-windows\MiLibreria2.PantallaPrincipal.resources
+C:\Users\dam2\Documents\GitHub\mnunezg2-DAM\Chema\Prueba\MiLibreria2\MiLibreria2\obj\Debug\net8.0-windows\LibreriaV3._1.PantallaPrincipal.resources

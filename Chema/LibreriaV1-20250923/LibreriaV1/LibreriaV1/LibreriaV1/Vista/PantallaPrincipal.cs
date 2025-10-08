@@ -16,27 +16,15 @@ namespace LibreriaV3._1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Se han introducido estas líneas para comprobar como el evento Load
-            // es lo primero que se carga en el arranque de la aplicación.
-            // Es conveniente poner un punto de ruptura en la clase Program para ver cómo 
-            // arranca la aplicación y los métodos por los que pasa, en nuestro caso por el constructor
-            // PantallaPrincipal()
 
-            //int a,b;
-            //a = 2;
-            //b = 3;
             MessageBox.Show("Holaaaaaaaaaaaaaaaaaaa");
         }
-
-        // Los eventos de cierre de la aplicación(Closed y Closing) pueden ser borrados
-        // ya que no se utilizán. ¡¡ OJO !! Antes de borrarlos en esta clase, hay que 
-        // elimarlos en el diseñador en el apartado eventos para que el formulario no de problemas.
+        
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
         }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-
         }
         private void btnNuevo_Click(object sender, EventArgs e)
         {
@@ -45,23 +33,18 @@ namespace LibreriaV3._1
 
         private void BtnAlta_Click(object sender, EventArgs e)
         {
-            int estado = 0;
+            Boolean estado = false;
             estado = acceso.insertarLibro(RecogerDatosPantalla());
-            if (estado == 1)
+            if (estado)
             {
                 lstLibros.Items.Add(txtTitulo.Text);
                 lblMensaje.Text = "Libro Creado Correctamente";
                 MessageBox.Show("Libro Creado Correctamente");
             }
-            else if (estado == -1)
+            else
             {
-                lblMensaje.Text = "El libro ya existe";
-                MessageBox.Show("El libro ya existe");
-            }
-            else if (estado == 0)
-            {
-                lblMensaje.Text = "No hay espacio para mas libros";
-                MessageBox.Show("No hay espacio para mas libros");
+                lblMensaje.Text = "No se ha podido añadir el libro";
+                MessageBox.Show("No se ha podido añadir el libro");
 
             }
         }
@@ -79,7 +62,7 @@ namespace LibreriaV3._1
            
         private void btnBaja_Click(object sender, EventArgs e)
         {
-            acceso.borrarLibro(lstLibros.SelectedItem.ToString());
+            acceso.borrarLibro(RecogerDatosPantalla());
             lstLibros.Items.Remove(lstLibros.SelectedItem.ToString()); 
             VaciarPantalla();                    
         }
@@ -111,11 +94,10 @@ namespace LibreriaV3._1
         
         private void btnModificar_Click(object sender, EventArgs e)
         {
-        //* Si estado es -1 indica que el libro no se ha encontrado.
-        //* Cualquier otro valor devuelto, indicará que el libro se ha encontrado y la insercción ha sido correcta.
-            int estado = 0;
+        //*
+            Boolean estado = false;
             estado=acceso.modificarLibro(RecogerDatosPantalla());
-            if (estado != -1)
+            if (estado)
             {
                 lblMensaje.Text = "Libro Modificado Correctamente";
                 MessageBox.Show("Libro Modificado Correctamente");
