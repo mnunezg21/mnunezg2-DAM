@@ -1,0 +1,4 @@
+
+EJEMPLO CON LOS CONCEPTOS DE SERIALIZACIÓN DESERIALIZACIÓN, HASMAP, INTERFACE etc.
+
+https://docs.microsoft.com/es-es/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter?view=netcore-3.1
