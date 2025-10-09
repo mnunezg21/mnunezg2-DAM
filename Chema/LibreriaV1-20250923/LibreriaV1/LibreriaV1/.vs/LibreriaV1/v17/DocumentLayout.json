@@ -49,7 +49,7 @@
               "RelativeDocumentMoniker": "LibreriaV1\\Vista\\PantallaPrincipal.cs",
               "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\LibreriaV1-20250923\\LibreriaV1\\LibreriaV1\\LibreriaV1\\Vista\\PantallaPrincipal.cs",
               "RelativeToolTip": "LibreriaV1\\Vista\\PantallaPrincipal.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAUwFYAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T10:33:31.162Z",
               "IsPinned": true,
@@ -65,8 +65,7 @@
               "RelativeToolTip": "LibreriaV1\\Modelo\\Libro.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T10:33:36.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T10:33:36.016Z"
             },
             {
               "$type": "Document",
@@ -76,7 +75,7 @@
               "RelativeDocumentMoniker": "LibreriaV1\\Modelo\\Estanteria.cs",
               "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\LibreriaV1-20250923\\LibreriaV1\\LibreriaV1\\LibreriaV1\\Modelo\\Estanteria.cs",
               "RelativeToolTip": "LibreriaV1\\Modelo\\Estanteria.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAuwBsAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwCIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T10:33:35.427Z",
               "EditorCaption": ""
