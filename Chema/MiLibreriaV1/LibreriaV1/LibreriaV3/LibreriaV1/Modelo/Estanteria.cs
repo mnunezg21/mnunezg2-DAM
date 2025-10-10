@@ -9,6 +9,7 @@ using System.Windows.Forms;
 public class Estanteria
 {   	   
     private List<Libro> libros = new List<Libro>();
+
     // Nombre del fichero donde se guardan los datos
     private const string DATA_FILENAME = "data.dat"; 
     // Se encarga de serializar y deserializar los objetos, convertir a bytes
@@ -32,7 +33,7 @@ public class Estanteria
                 // Crea un flujo que representa una conexion entre el programa y el archivo
                 readerFileStream = new FileStream( 
                     DATA_FILENAME, // Nombre fichero
-                    FileMode.Open, // Modo apertura, 
+                    FileMode.Open, // Modo apertura,
                     FileAccess.Read // Modo lectura, 
                     );
                 libros = (List<Libro>)formatter.Deserialize( // Lee bytes y los convierte en objetos
@@ -57,12 +58,13 @@ public class Estanteria
         try
         {
             // Crea una instancia para serializar y convertirlos a bytes para pasarlos al archivo
+            //Es un objeto de esta interface
             IFormatter formatter = new BinaryFormatter();
             // using, cierra el flujo automaticamente
             // Stream, representa el flujo de datos
             using (Stream stream = new FileStream(
                 DATA_FILENAME, // Nombre fichero
-                FileMode.Create, // Modo creacion, si no existe lo crea
+                FileMode.Create, // Modo creacion, se carga todo el fichero y lo reescribe
                 FileAccess.Write, // Modo escritura, se encarga de escribir en el fichero
                 FileShare.None // No comparte el acceso al fichero con nadie mas
                 ))
@@ -79,9 +81,11 @@ public class Estanteria
     }
     private void cerrarFichero()
     {
-        //readerFileStream.Flush(); // Vacia la memoria temporal y fuerza a escribir datos en el disco
-        readerFileStream.Close(); // Cierra la conexion 
-        readerFileStream.Dispose(); // Libera recursos no administrados del sistema operativo
+        if (readerFileStream != null) {
+            readerFileStream.Flush(); // Vacia la memoria temporal y fuerza a escribir datos en el disco
+            readerFileStream.Close(); // Cierra la conexion 
+            readerFileStream.Dispose(); // Libera recursos no administrados del sistema operativo
+        }
     }
 
     public Boolean insertarLibro(Libro libro)
