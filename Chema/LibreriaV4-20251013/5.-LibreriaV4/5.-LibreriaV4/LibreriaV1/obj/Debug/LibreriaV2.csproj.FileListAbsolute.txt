@@ -1,0 +1,105 @@
+D:\LibreriaDesktop\LibreriaV2\LibreriaV1\bin\Debug\LibreriaV2.exe.config
+D:\LibreriaDesktop\LibreriaV2\LibreriaV1\bin\Debug\LibreriaV2.exe
+D:\LibreriaDesktop\LibreriaV2\LibreriaV1\bin\Debug\LibreriaV2.pdb
+D:\LibreriaDesktop\LibreriaV2\LibreriaV1\obj\Debug\LibreriaV2.csprojResolveAssemblyReference.cache
+D:\LibreriaDesktop\LibreriaV2\LibreriaV1\obj\Debug\LibreriaV2.Properties.Resources.resources
+D:\LibreriaDesktop\LibreriaV2\LibreriaV1\obj\Debug\LibreriaV3._1.PantallaPrincipal.resources
+D:\LibreriaDesktop\LibreriaV2\LibreriaV1\obj\Debug\LibreriaV2.csproj.GenerateResource.cache
+D:\LibreriaDesktop\LibreriaV2\LibreriaV1\obj\Debug\LibreriaV2.csproj.CoreCompileInputs.cache
+D:\LibreriaDesktop\LibreriaV2\LibreriaV1\obj\Debug\LibreriaV2.exe
+D:\LibreriaDesktop\LibreriaV2\LibreriaV1\obj\Debug\LibreriaV2.pdb
+D:\LibreriaDesktop\LibreriaV3\LibreriaV1\bin\Debug\LibreriaV2.exe.config
+D:\LibreriaDesktop\LibreriaV3\LibreriaV1\bin\Debug\LibreriaV2.exe
+D:\LibreriaDesktop\LibreriaV3\LibreriaV1\bin\Debug\LibreriaV2.pdb
+D:\LibreriaDesktop\LibreriaV3\LibreriaV1\obj\Debug\LibreriaV2.csprojResolveAssemblyReference.cache
+D:\LibreriaDesktop\LibreriaV3\LibreriaV1\obj\Debug\LibreriaV2.Properties.Resources.resources
+D:\LibreriaDesktop\LibreriaV3\LibreriaV1\obj\Debug\LibreriaV3._1.PantallaPrincipal.resources
+D:\LibreriaDesktop\LibreriaV3\LibreriaV1\obj\Debug\LibreriaV2.csproj.GenerateResource.cache
+D:\LibreriaDesktop\LibreriaV3\LibreriaV1\obj\Debug\LibreriaV2.csproj.CoreCompileInputs.cache
+D:\LibreriaDesktop\LibreriaV3\LibreriaV1\obj\Debug\LibreriaV2.exe
+D:\LibreriaDesktop\LibreriaV3\LibreriaV1\obj\Debug\LibreriaV2.pdb
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV3\LibreriaV1\bin\Debug\LibreriaV2.exe.config
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV3\LibreriaV1\bin\Debug\LibreriaV2.exe
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV3\LibreriaV1\bin\Debug\LibreriaV2.pdb
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV3\LibreriaV1\obj\Debug\LibreriaV2.csprojResolveAssemblyReference.cache
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV3\LibreriaV1\obj\Debug\LibreriaV2.Properties.Resources.resources
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV3\LibreriaV1\obj\Debug\LibreriaV3._1.PantallaPrincipal.resources
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV3\LibreriaV1\obj\Debug\LibreriaV2.csproj.GenerateResource.Cache
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV3\LibreriaV1\obj\Debug\LibreriaV2.exe
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV3\LibreriaV1\obj\Debug\LibreriaV2.pdb
+C:\Users\jmcarreterog\Downloads\Telegram Desktop\LibreriaV4\LibreriaV1\bin\Debug\LibreriaV2.exe.config
+C:\Users\jmcarreterog\Downloads\Telegram Desktop\LibreriaV4\LibreriaV1\bin\Debug\LibreriaV2.exe
+C:\Users\jmcarreterog\Downloads\Telegram Desktop\LibreriaV4\LibreriaV1\bin\Debug\LibreriaV2.pdb
+C:\Users\jmcarreterog\Downloads\Telegram Desktop\LibreriaV4\LibreriaV1\bin\Debug\Google.Protobuf.dll
+C:\Users\jmcarreterog\Downloads\Telegram Desktop\LibreriaV4\LibreriaV1\bin\Debug\MySql.Data.dll
+C:\Users\jmcarreterog\Downloads\Telegram Desktop\LibreriaV4\LibreriaV1\bin\Debug\Google.Protobuf.xml
+C:\Users\jmcarreterog\Downloads\Telegram Desktop\LibreriaV4\LibreriaV1\bin\Debug\MySql.Data.xml
+C:\Users\jmcarreterog\Downloads\Telegram Desktop\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csprojAssemblyReference.cache
+C:\Users\jmcarreterog\Downloads\Telegram Desktop\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.Properties.Resources.resources
+C:\Users\jmcarreterog\Downloads\Telegram Desktop\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV3._1.PantallaPrincipal.resources
+C:\Users\jmcarreterog\Downloads\Telegram Desktop\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csproj.GenerateResource.cache
+C:\Users\jmcarreterog\Downloads\Telegram Desktop\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csproj.CoreCompileInputs.cache
+C:\Users\jmcarreterog\Downloads\Telegram Desktop\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csproj.CopyComplete
+C:\Users\jmcarreterog\Downloads\Telegram Desktop\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.exe
+C:\Users\jmcarreterog\Downloads\Telegram Desktop\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.pdb
+E:\CASTELAR\NET\CURSO-19-20\LibreriaEscritorioServiciosVistaAutogenerable\LibreriaV4\LibreriaV1\bin\Debug\LibreriaV2.exe.config
+E:\CASTELAR\NET\CURSO-19-20\LibreriaEscritorioServiciosVistaAutogenerable\LibreriaV4\LibreriaV1\bin\Debug\LibreriaV2.exe
+E:\CASTELAR\NET\CURSO-19-20\LibreriaEscritorioServiciosVistaAutogenerable\LibreriaV4\LibreriaV1\bin\Debug\LibreriaV2.pdb
+E:\CASTELAR\NET\CURSO-19-20\LibreriaEscritorioServiciosVistaAutogenerable\LibreriaV4\LibreriaV1\bin\Debug\Google.Protobuf.dll
+E:\CASTELAR\NET\CURSO-19-20\LibreriaEscritorioServiciosVistaAutogenerable\LibreriaV4\LibreriaV1\bin\Debug\MySql.Data.dll
+E:\CASTELAR\NET\CURSO-19-20\LibreriaEscritorioServiciosVistaAutogenerable\LibreriaV4\LibreriaV1\bin\Debug\Google.Protobuf.xml
+E:\CASTELAR\NET\CURSO-19-20\LibreriaEscritorioServiciosVistaAutogenerable\LibreriaV4\LibreriaV1\bin\Debug\MySql.Data.xml
+E:\CASTELAR\NET\CURSO-19-20\LibreriaEscritorioServiciosVistaAutogenerable\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csprojResolveAssemblyReference.cache
+E:\CASTELAR\NET\CURSO-19-20\LibreriaEscritorioServiciosVistaAutogenerable\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.Properties.Resources.resources
+E:\CASTELAR\NET\CURSO-19-20\LibreriaEscritorioServiciosVistaAutogenerable\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV3._1.PantallaPrincipal.resources
+E:\CASTELAR\NET\CURSO-19-20\LibreriaEscritorioServiciosVistaAutogenerable\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csproj.GenerateResource.Cache
+E:\CASTELAR\NET\CURSO-19-20\LibreriaEscritorioServiciosVistaAutogenerable\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csproj.CoreCompileInputs.cache
+E:\CASTELAR\NET\CURSO-19-20\LibreriaEscritorioServiciosVistaAutogenerable\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.exe
+E:\CASTELAR\NET\CURSO-19-20\LibreriaEscritorioServiciosVistaAutogenerable\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.pdb
+E:\CASTELAR\NET\CURSO-19-20\LibreriaEscritorioServiciosVistaAutogenerable\LibreriaV4\LibreriaV1\bin\Debug\BouncyCastle.Crypto.dll
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\LibreriaV2.exe.config
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\LibreriaV2.exe
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\LibreriaV2.pdb
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\BouncyCastle.Crypto.dll
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\Google.Protobuf.dll
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\MySql.Data.dll
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\Google.Protobuf.xml
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\MySql.Data.xml
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csprojResolveAssemblyReference.cache
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.Properties.Resources.resources
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csproj.GenerateResource.Cache
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csproj.CoreCompileInputs.cache
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.exe
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.pdb
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.PantallaPrincipal.resources
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\LibreriaV2.exe.config
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\LibreriaV2.exe
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\LibreriaV2.pdb
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\BouncyCastle.Crypto.dll
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\Google.Protobuf.dll
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\MySql.Data.dll
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\Google.Protobuf.xml
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\bin\Debug\MySql.Data.xml
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csprojAssemblyReference.cache
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.Properties.Resources.resources
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.PantallaPrincipal.resources
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csproj.GenerateResource.cache
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csproj.CoreCompileInputs.cache
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csproj.CopyComplete
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.exe
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.pdb
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\3.-LibreriaV4\LibreriaV1\bin\Debug\LibreriaV2.exe.config
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\3.-LibreriaV4\LibreriaV1\bin\Debug\LibreriaV2.exe
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\3.-LibreriaV4\LibreriaV1\bin\Debug\LibreriaV2.pdb
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\3.-LibreriaV4\LibreriaV1\bin\Debug\BouncyCastle.Crypto.dll
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\3.-LibreriaV4\LibreriaV1\bin\Debug\Google.Protobuf.dll
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\3.-LibreriaV4\LibreriaV1\bin\Debug\MySql.Data.dll
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\3.-LibreriaV4\LibreriaV1\bin\Debug\Google.Protobuf.xml
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\3.-LibreriaV4\LibreriaV1\bin\Debug\MySql.Data.xml
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\3.-LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csprojResolveAssemblyReference.cache
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\3.-LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.Properties.Resources.resources
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\3.-LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.PantallaPrincipal.resources
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\3.-LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csproj.GenerateResource.Cache
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\3.-LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.csproj.CoreCompileInputs.cache
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\3.-LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.exe
+F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV4\3.-LibreriaV4\LibreriaV1\obj\Debug\LibreriaV2.pdb

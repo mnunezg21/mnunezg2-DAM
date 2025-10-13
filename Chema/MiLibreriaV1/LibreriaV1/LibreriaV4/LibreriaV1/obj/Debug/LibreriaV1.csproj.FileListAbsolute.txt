@@ -1,0 +1,10 @@
+D:\LibreriaDesktop\LibreriaV1\LibreriaV1\bin\Debug\LibreriaV1.exe.config
+D:\LibreriaDesktop\LibreriaV1\LibreriaV1\bin\Debug\LibreriaV1.exe
+D:\LibreriaDesktop\LibreriaV1\LibreriaV1\bin\Debug\LibreriaV1.pdb
+D:\LibreriaDesktop\LibreriaV1\LibreriaV1\obj\Debug\LibreriaV1.csprojResolveAssemblyReference.cache
+D:\LibreriaDesktop\LibreriaV1\LibreriaV1\obj\Debug\LibreriaV1.Properties.Resources.resources
+D:\LibreriaDesktop\LibreriaV1\LibreriaV1\obj\Debug\LibreriaV3._1.PantallaPrincipal.resources
+D:\LibreriaDesktop\LibreriaV1\LibreriaV1\obj\Debug\LibreriaV1.csproj.GenerateResource.cache
+D:\LibreriaDesktop\LibreriaV1\LibreriaV1\obj\Debug\LibreriaV1.csproj.CoreCompileInputs.cache
+D:\LibreriaDesktop\LibreriaV1\LibreriaV1\obj\Debug\LibreriaV1.exe
+D:\LibreriaDesktop\LibreriaV1\LibreriaV1\obj\Debug\LibreriaV1.pdb
