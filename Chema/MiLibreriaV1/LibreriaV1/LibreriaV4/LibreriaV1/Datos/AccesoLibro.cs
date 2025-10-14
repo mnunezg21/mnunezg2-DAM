@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace LibreriaV2.Datos
 {
+    // Hereda los metodos de AccesoBD y IAcceso
   public class AccesoLibro : AccesoBD , IAcceso<TLibro> {
 
+        // 
 	public Boolean insertarLibro(TLibro obLibro) {
 		try {
 			return ejecutarUpdate(UtilSQL.sqlInsertarLibro(obLibro));

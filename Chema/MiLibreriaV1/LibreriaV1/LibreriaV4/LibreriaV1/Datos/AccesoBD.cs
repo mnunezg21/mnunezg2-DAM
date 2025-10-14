@@ -73,7 +73,7 @@ namespace LibreriaV2.Datos
         {
             try
             {
-                transaccion = this.conexion.BeginTransaction(); // Inicia la transacción
+                transaccion = this.conexion.BeginTransaction(); // Inicia la transacción y encapsula las sentencias
             }
             catch (Exception e)
             {
@@ -113,7 +113,7 @@ namespace LibreriaV2.Datos
             abrirConexion();
             try
             {
-                // Ejecuta la sentencia SQL 
+                // Ejecuta la sentencia SQL
                 comando = new MySqlCommand(sql, conexion);
                 // Devuelve el número de filas afectadas
                 // Devuelve true si afecto al menos una fila
@@ -147,16 +147,21 @@ namespace LibreriaV2.Datos
                 // Recorre cada fila del resultado
                 while (dataReader.Read())
                 {
-
+                    // Crea un objeto de 
                     Object obj = Activator.CreateInstance(objeto.GetType());
-
+                    
+                    // Se ejecuta todo el rato , hasta que se quede sin objetos
+                    // y "nombre" va cambiando a "titulo", "autor", "paginas"... 
+                    
+                    // Se encarga de mapear cada columna a una propiedad
                     foreach (String nombre in nombrePropiedades)
                     {
-
+                        // Obtiene el valor de la columna que se este ejecutando en ese momento
+                        // Ejemplo Titulo="Juego de Tronos" , Codigo="cod001"
                         String valor = dataReader[nombre].ToString();
-
+                        // Guarda en propiedad el tipo de variable que tiene que ser la variable de esa columna
                         PropertyInfo propiedad = obj.GetType().GetProperty(nombre);
-
+                        // Modifica la variable por la asignada en la linea anterior 
                         propiedad.SetValue(obj, Convert.ChangeType(valor, propiedad.PropertyType), null);
                     }
                     objetos.Add(obj); // Añade el objeto a la lista
@@ -173,29 +178,5 @@ namespace LibreriaV2.Datos
             }
             return objetos; // Devuelve la lista de objetos con los datos obtenidos por la consulta SQL 
         }
-
-        //*******************************************************************************************************************
-        // Este método no se utiliza ya que ExecuteScalar() devuelve el valor de la primera columna de la tabla.
-        // Nuestro objetivo es devolver todos las columnas de la tabla y cargar objetos. Se usa mejor DataReader
-        //*******************************************************************************************************************
-       
-        /*public object ejecutarConsulta(String sql)
-        {
-            try
-            {
-                abrirConexion();
-                comando = new MySqlCommand(sql, conexion);
-                return comando.ExecuteScalar();
-            }
-            catch (Exception e)
-            {
-                throw;
-            }
-            finally
-            {
-                cerrarConexion();
-            }
-        }*/
-
     }
 }

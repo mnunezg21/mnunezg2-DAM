@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace LibreriaV2.Datos
 {
+    // Esta clase se encarga de guardar todas las Sentencias SQL
     class UtilSQL
     {
         public static String sqlInsertarLibro(TLibro obLibro)
