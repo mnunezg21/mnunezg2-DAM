@@ -68,7 +68,7 @@ namespace LibreriaV2.Datos
             }
         }
 
-        // Métodos para el manejo de transacciones
+        // Métodos para el manejo de transacciones solo se puede usasr INSERT, UPDATE, DELETE
         protected void iniciarTransaccion()
         {
             try
@@ -81,7 +81,7 @@ namespace LibreriaV2.Datos
             }
         }
 
-        // Confirma la transacción (hace commit)
+        // Confirma la transacción (hace commit) 
         protected void aceptarTransaccion()
         {
             try

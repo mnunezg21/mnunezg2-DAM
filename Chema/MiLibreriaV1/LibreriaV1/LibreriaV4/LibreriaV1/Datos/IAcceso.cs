@@ -5,6 +5,7 @@ namespace LibreriaV2.Datos
 {
     interface IAcceso<obj>
     {
+        //
         bool insertarLibro(obj objeto);
         bool borrarLibro(obj objeto);
         Object buscarLibro(String nombre);

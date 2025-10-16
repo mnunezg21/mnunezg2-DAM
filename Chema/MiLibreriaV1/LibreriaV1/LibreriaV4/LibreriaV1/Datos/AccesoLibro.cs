@@ -10,7 +10,7 @@ namespace LibreriaV2.Datos
     // Hereda los metodos de AccesoBD y IAcceso
   public class AccesoLibro : AccesoBD , IAcceso<TLibro> {
 
-        // 
+        // Se encarga pasar sql al ejecutar el Update y devolver a la base de datos el sql 
 	public Boolean insertarLibro(TLibro obLibro) {
 		try {
 			return ejecutarUpdate(UtilSQL.sqlInsertarLibro(obLibro));
@@ -19,6 +19,8 @@ namespace LibreriaV2.Datos
 		}
 
 	}
+
+        // Se encarga de hacer el DELETE y borrar esa informacion de la base de datos 
 	public Boolean borrarLibro(TLibro oblibro) {
 		try {
 			return ejecutarUpdate(UtilSQL.sqlBorrarLibro(oblibro.Titulo));
@@ -27,6 +29,7 @@ namespace LibreriaV2.Datos
 		}
 	}
 
+        // Se encarga de hacer el Select y buscar el libro segun el nombre y devolverlo a la pantallaPrincipal
     public object buscarLibro(string nombre) {
 
         try { 
@@ -37,6 +40,7 @@ namespace LibreriaV2.Datos
         }
     }
 
+        // Se encarga de hacer todo el Select y meterlo dentro de la Lista Libros
     public List<object> obtenerLibros() {
 
          try{
@@ -46,7 +50,7 @@ namespace LibreriaV2.Datos
             }
         }
 
-
+        // Se encarga de modificar el libro seleccionado
 	public Boolean modificarLibro(TLibro obLibro) {
         try {
              return ejecutarUpdate(UtilSQL.sqlModificarLibro(obLibro));
@@ -54,44 +58,5 @@ namespace LibreriaV2.Datos
                 throw;
         }
 	}
-
-    //*********************************************************************************************************************
-    //                                                MONTAJE SQL
-    //   Todas estas SQL las traladaremos a la clase UtilSQL. También las dejaremos en la clase Estanteria para que el 
-    //   alumno compruebe la modificación realizada. Estos métodos en la clase UtilSQL pasan a ser STATIC para poder acceder
-    //   sin la necesidad de crear un objeto de la clase UtilSQL.
-    //*********************************************************************************************************************
-	/*private  String sqlInsertarLibro(TLibro obLibro) {
-		return "INSERT INTO `tlibro`(`titulo`, `autor`, `tema`, `paginas`, `formatouno`, `formatodos`, `formatotres`, `estado`) VALUES ('"
-				+ obLibro.Titulo + "' , '" + obLibro.Autor + "' , '" + obLibro.Tema + "' , '"
-				+ obLibro.Paginas + "' , '" + obLibro.Formatouno + "' , '" + obLibro.Formatodos + "' , '"
-				+ obLibro.Formatotres + "' , '" + obLibro.Estado + "')";
-	}
-
-	private String sqlBorrarLibro(String nombre) {
-		return "DELETE FROM `tlibro` WHERE `titulo` = '" + nombre + "'";
-	}
-
-	private String sqlBuscarLibro(String nombre) {
-            //return "SELECT `titulo`, `autor`, `tema`, `paginas`, `formatouno`, `formatodos`, `formatotres`, `estado` FROM `tlibro` WHERE `titulo` = '"
-            //		+ nombre + "'";
-        return "SELECT * FROM `tlibro` WHERE `titulo` = '"
-        		+ nombre + "'";
-        }
-
-        private  String sqlObtenerLibros() {
-            //return "SELECT `titulo`, `autor`, `tema`, `paginas`, `formatouno`, `formatodos`, `formatotres`, `estado` FROM `tlibro` ";
-           return "SELECT * FROM tlibro";
-
-    }
-
-	private String sqlModificarLibro(TLibro obLibro) {
-		return "UPDATE `tlibro` SET `titulo`= '" + obLibro.Titulo + "' ,`autor`= '" + obLibro.Autor
-				+ "' ,`tema`= '" + obLibro.Tema + "' ,`paginas`= '" + obLibro.Paginas + "' ,`formatouno`= '"
-				+ obLibro.Formatouno + "' ,`formatodos`= '" + obLibro.Formatodos + "' ,`formatotres`= '"
-				+ obLibro.Formatotres + "' ,`estado`= '" + obLibro.Estado + "'  WHERE `titulo` = '"
-				+ obLibro.Titulo + "'";
-	}*/
-
   }   
 }

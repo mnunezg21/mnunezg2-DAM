@@ -43,32 +43,5 @@ namespace LibreriaV2.Datos
                     + obLibro.Formatotres + "' ,`estado`= '" + obLibro.Estado + "'  WHERE `titulo` = '"
                     + obLibro.Titulo + "'";
         }
-        //**************************************************************************************************************
-        // Estas SQL no se utilizarán en la aplicación, pero se tienen como documentación por si es necesario usar su
-        // sintaxis.
-        //**************************************************************************************************************
-        /*public static string sqlInsertar(TLibro libro)
-        {
-            return string.Format("INSERT INTO tlibro(Autor, Titulo, Tema, Paginas, Precio, Formatouno, Formatodos, Formatotres, Estado) VALUES ('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}')",libro.Autor,libro.Titulo,libro.Tema,libro.Paginas,libro.Precio,libro.Formatouno,libro.Formatodos,libro.Formatotres,libro.Estado);
-        }
-
-        public static string sqlBorrar(TLibro libro)
-        {
-
-            return "DELETE FROM tlibro WHERE Autor = " + "'"+libro.Autor+"'";
-        }
-
-        public static string sqlModificar(int id, TLibro libro)
-        {
-            return string.Format("UPDATE tlibro SET Autor='{0}',Titulo='{1}',Tema='{2}',Paginas='{3}',Precio='{4}',Formatouno='{5}',Formatodos='{6}',Formatotres='{7}',Estado='{8}' WHERE CodLibro = {9}", libro.Autor, libro.Titulo, libro.Tema, libro.Paginas, libro.Precio, libro.Formatouno, libro.Formatodos, libro.Formatotres, libro.Estado,id);
-        }
-
-
-        public static string sqlLeer()
-        {
-            return "SELECT * FROM tlibro";
-        }*/
-
-
     }
 }
