@@ -1,5 +1,5 @@
 package ejerciciosLibro.T1;
-
+//2
 public class GeneradorAleatorios {
 
 	public static void main(String[] args) {
