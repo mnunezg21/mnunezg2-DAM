@@ -1,0 +1,71 @@
+package ejerciciosLibro.T1;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.util.Scanner;
+
+public class Padre {
+
+	public static void main(String[] args) {
+		Process procesoHijo = null;
+		BufferedReader lectorHijo = null;
+		BufferedWriter escritorHijo = null;
+		Scanner scanner = null;
+		
+		try {
+			ProcessBuilder pb = new ProcessBuilder("java","GeneradorAleatorios");
+			pb.redirectErrorStream();
+			System.out.println("Iniciando proceso Hijo");
+			procesoHijo = pb.start();
+			lectorHijo =  new BufferedReader(new InputStreamReader(procesoHijo.getInputStream()));
+			escritorHijo = new BufferedWriter(new OutputStreamWriter(procesoHijo.getOutputStream()));
+			scanner = new Scanner(System.in);
+			
+			BufferedReader errorHijo = new BufferedReader(new InputStreamReader(procesoHijo.getErrorStream()));
+			System.out.println("Hijo "+ errorHijo.readLine());
+			
+			System.out.println("Escribe lineas o 'fin' para terminar el programa");
+			
+			String lineaUsuario;
+			while(true) {
+				System.out.print("Entrada: ");
+                lineaUsuario = scanner.nextLine();
+                
+                if ("fin".equalsIgnoreCase(lineaUsuario.trim())) {
+                    escritorHijo.write("fin");
+                    escritorHijo.newLine();
+                    escritorHijo.flush();
+                    break;
+                }
+                escritorHijo.write("generar");
+                escritorHijo.newLine();
+                escritorHijo.flush();
+                
+                String numero = lectorHijo.readLine();
+                System.out.println("Número aleatorio: " + numero);
+			}
+		} catch(IOException e) {
+			System.err.println("Error de entrada y salida");
+			System.err.println(e.getMessage());
+			System.exit(-1);
+			
+		}finally {
+            // Limpieza
+            try {
+                if (procesoHijo != null && procesoHijo.isAlive()) {
+                    procesoHijo.waitFor();
+                }
+                if (lectorHijo != null) lectorHijo.close();
+                if (escritorHijo != null) escritorHijo.close();
+                if (scanner != null) scanner.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            System.out.println("Programa terminado.");
+        }
+	}
+
+}

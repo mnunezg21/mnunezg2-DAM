@@ -1,0 +1,152 @@
+package xml.xmlDOM;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Path;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.Result;
+import javax.xml.transform.Source;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerConfigurationException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+
+import org.w3c.dom.DOMImplementation;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+
+public class Main {
+
+	public static void main(String[] args) {
+		escribir();
+		leerXML();
+	}
+
+	private static void escribir() {
+		/*<alumnos>
+		  <alumno nombre="Alvaro" edad="28">
+		  <direccion>C/Falsa 1234</direccion>
+		  <telefono>987654321</telefono>
+		  </alumno>
+		  </alumnos>*/
+		//PASO 2
+		DocumentBuilder builder=crearBuilder();
+		//PASO 3
+		DOMImplementation implementation=builder.getDOMImplementation();
+		//PASO 4
+		Document document = implementation.createDocument(null, null, null);//estamos creandolo y a la memoria ram va vacio
+		document.setXmlVersion("1.0");
+		document.setXmlStandalone(true);
+		
+		//PASO 5
+		Element alumnos = document.createElement("Alumnos");
+		document.appendChild(alumnos);
+		Element alumno = document.createElement("Alumno");
+		alumno.setAttribute("nombre", "Alvaro");
+		alumno.setAttribute("edad", "28");
+		document.appendChild(alumno);
+		Element direccion = document.createElement("Direccion");
+		direccion.setTextContent("C/Falsa 1234");
+		Element telefono = document.createElement("Telefono");
+		telefono.setTextContent("987654321");
+		
+		alumno.appendChild(direccion);
+		alumno.appendChild(telefono);
+		alumnos.appendChild(alumno);
+		
+		//Creamos el origen el documento en memoria ram
+		Source origen = new DOMSource(document);
+		Result result = new StreamResult(new File("ficheros/alumnos.xml"));
+		Transformer transformer =null; 
+		try {
+			transformer=TransformerFactory.newInstance().newTransformer();
+		}catch(TransformerConfigurationException e){
+			
+		}
+		
+	}
+
+	private static DocumentBuilder crearBuilder() {
+		DocumentBuilderFactory factory=DocumentBuilderFactory.newInstance();
+		DocumentBuilder builder=null;
+		try {
+			builder=factory.newDocumentBuilder();
+		} catch (ParserConfigurationException e) {
+			System.err.println("Error al crear el DocumentBuilder");
+			System.err.println(e.getMessage());
+			System.exit(-1);
+		}
+		return builder;
+	}
+
+	private static void leerXML() {
+		Path path = Path.of("ficheros/ms.xml");
+		File xml = path.toFile();
+// PRIMER PASO
+		DocumentBuilderFactory docBuildFactory = DocumentBuilderFactory.newInstance();
+// SEGUNDO PASO
+		DocumentBuilder docBuilder;
+		try {
+			docBuilder = docBuildFactory.newDocumentBuilder();
+			Document document = null;
+			try {
+				document = docBuilder.parse(xml);
+				NodeList listaInicial = document.getElementsByTagName("Tests").item(0).getChildNodes();
+				switchElement(listaInicial);
+			} catch (SAXException e) {
+				e.printStackTrace();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+
+		} catch (ParserConfigurationException e) {
+			System.err.println("Error al crear el document builder. ");
+			System.err.println(e.getMessage());
+			System.exit(-1);
+		}
+
+	}
+
+	private static void switchElement(NodeList listaInicial) {
+		for (int i = 0; i < listaInicial.getLength(); i++) {
+			Node node = listaInicial.item(i);
+// SI ESTE NODO ES UN ELEMNTO, ENTRO AL SWITCH
+			if (node.getNodeType() == Node.ELEMENT_NODE) {
+				switch (node.getNodeName()) {
+				case "Test":
+					String id = node.getAttributes().getNamedItem("TestId").getNodeValue();
+					String type = node.getAttributes().getNamedItem("TestType").getNodeValue();
+
+					System.out.println(node.getNodeName() + "\t -\t" + id + "\t -\t" + type);
+					System.out.println();
+
+					NodeList listHijos = node.getChildNodes();
+					switchElement(listHijos);
+
+					break;
+				case "Name":
+					System.out.println(node.getNodeName() + " : " + node.getTextContent());
+					break;
+				case "CommandLine":
+					System.out.println(node.getNodeName() + " : " + node.getTextContent());
+					break;
+				case "Input":
+					System.out.println(node.getNodeName() + " : " + node.getTextContent());
+					break;
+				case "Output":
+// IMPRIME EL NOMBRE DE LA ETIQUETA Y EL CONTENIDO
+					System.out.println(node.getNodeName() + " : " + node.getTextContent());
+					break;
+				}
+			}
+		}
+	}
+
+}

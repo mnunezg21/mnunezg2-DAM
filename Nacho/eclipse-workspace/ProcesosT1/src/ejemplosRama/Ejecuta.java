@@ -1,0 +1,29 @@
+package ejemplosRama;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+
+public class Ejecuta {
+
+	public static void main(String[] args) throws IOException {
+		if(args.length <=0) {
+			System.err.println("Necesitas argumentos para ejecutar");
+			System.exit(-1);
+		}
+		Runtime runtime = Runtime.getRuntime();
+		Process process= runtime.exec(args);
+		BufferedReader berr = new BufferedReader(new InputStreamReader(process.getInputStream()));
+		
+		String linea;
+		System.out.println("Errores de ejecucion del proceso hijo. "+Arrays.toString(args));
+		while((linea=berr.readLine())!=null) {
+			System.out.println(linea);
+		}
+		
+		
+		
+	}
+
+}

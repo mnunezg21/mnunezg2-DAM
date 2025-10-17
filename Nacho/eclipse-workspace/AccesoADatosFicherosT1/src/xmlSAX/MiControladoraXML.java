@@ -1,0 +1,56 @@
+package xmlSAX;
+
+import org.xml.sax.Attributes;
+import org.xml.sax.ContentHandler;
+import org.xml.sax.Locator;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
+
+public class MiControladoraXML extends DefaultHandler {
+
+	@Override
+	public void startDocument() throws SAXException {
+		super.startDocument();
+		System.out.println("Iniciando el procesamiento del documento...");
+	}
+
+	@Override
+	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+		super.startElement(uri, localName, qName, attributes);
+		switch(qName){
+		case "Tests":
+			System.out.println("Listado de test para ejecutar: ");
+			break;
+		case "Test":
+			String id = attributes.getValue("TestId"); // Por posicion o por nombre
+			String tipo = attributes.getValue("TestType"); 
+			System.out.println("\t Test : "+id+" es de tipo : "+tipo);
+			//Procesar todos los atributos que tuviera
+			break;
+		case "Name":
+			System.out.println("\nNombre del test: ");
+			break;
+		case "CommandLine":
+			System.out.println("\nComando para ejecutar el test: ");
+			break;
+		case "Input":
+			System.out.println("\nDatos de entrada del test: ");
+			break;
+		case "Output": 
+			System.out.println("\nDatos de salida del test: ");
+			break;
+		}
+	}
+
+	@Override
+	public void characters(char[] ch, int start, int length) throws SAXException {
+		super.characters(ch, start, length);
+		String texto = new String(ch,start,length).trim();
+		if(texto.length()>0) {
+			System.out.println(texto);
+		}
+	}
+
+	
+
+}

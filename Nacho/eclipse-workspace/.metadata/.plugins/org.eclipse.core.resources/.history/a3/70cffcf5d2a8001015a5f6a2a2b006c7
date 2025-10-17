@@ -1,0 +1,15 @@
+package ejercicio1_2;
+
+import java.nio.file.Path;
+import java.util.Iterator;
+
+public class ejercicio2 {
+
+	public static void main(String[] args) {
+		Path path = Path.of("ejercicios");
+		for (int i = 0; i < path.getNameCount(); i++) {
+			System.out.println(path.getFileName());
+		}
+		System.out.println(path.getFileName().toString());
+	}
+}

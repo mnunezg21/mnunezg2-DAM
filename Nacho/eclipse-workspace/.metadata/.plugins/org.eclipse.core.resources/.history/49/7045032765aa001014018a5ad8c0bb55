@@ -1,0 +1,27 @@
+package FicheroInformacion;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Path;
+
+public class Main {
+
+	public static void main(String[] args) {
+		File file = new File("ejercicios/ficheroInformacion");
+		FileWriter fileWriter;
+			
+		try {
+			fileWriter = new FileWriter(file);
+			fileWriter.write("Esto es un texto de prueba,"
+					+ "\n Estamos creando nuestro primer fichero de texto "
+					+ "\n https://codigonline.com");
+		} catch (IOException e) {
+			System.err.println("Error al escribir en el fichero");
+			System.err.println(e.getMessage());
+			System.exit(-1);
+		}
+
+	}
+
+}

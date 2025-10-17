@@ -1,0 +1,12 @@
+package ejercicio1_2;
+
+import java.nio.file.Path;
+import java.util.Iterator;
+
+public class ejercicio2 {
+
+	public static void main(String[] args) {
+		Path path = Path.of("ejercicios/");
+		
+	}
+}

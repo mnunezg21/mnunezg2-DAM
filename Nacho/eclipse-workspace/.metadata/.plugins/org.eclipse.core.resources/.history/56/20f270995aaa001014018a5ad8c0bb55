@@ -1,0 +1,74 @@
+package ejercicios;
+
+import java.io.File;
+import java.io.IOException;
+
+public class GestionFicheros {
+
+	public static void main(String[] args) {
+		//1 Crear directorio "ejercicios"
+		File directorio = new File("ejercicios");
+		if(directorio.mkdir()) {
+			System.out.println("Directorio creado perfectamente");
+		} else {
+			System.out.println("Error al crear el directorio");
+		}
+		//2 Crear fichero ejercicio1
+		File ejercicio1 = new File("ejercicios/ejercicio1");
+		try {
+			if(ejercicio1.createNewFile()) {
+				System.out.println("Ejercicio1 creado correctamente");
+			} else {
+				System.out.println("Error al crear el ejercicio1");
+			}
+		} catch(IOException e) {
+			System.err.println("Error al crear el fichero de ejercicio1");
+			System.err.println(e.getMessage());
+			System.exit(-1);
+			
+		}
+		//3 Mostrar longitud del fichero ejercicio1
+		System.out.println("Longitud del fichero ejercicio1 "+ejercicio1.length());
+		//4 Crear fichero ejercicio2
+		File ejercicio2 = new File("ejercicios/ejercicio2");
+			try {
+				if(ejercicio1.createNewFile()) {
+					System.out.println("Ejercicio2 creado correctamente");
+				} else {
+					System.out.println("Error al crear el ejercicio2");
+				}
+			} catch(IOException e) {
+				System.err.println("Error al crear el fichero de ejercicio2");
+				System.err.println(e.getMessage());
+				System.exit(-2);
+			}
+		//5 Muestra todos los ficheros de ejercicios
+			File[] archivos= directorio.listFiles();
+			if(archivos!=null) {
+				for (File archivo : archivos) {
+					System.out.println("  - "+archivo.getName());
+				}
+			}
+				
+		//6 Elimina un fichero llamado ejercicio1
+			if(ejercicio1.delete()) {
+				System.out.println("Ejercicio1 eliminado con exito");
+			} else {
+				System.out.println("El ejercicio1 no se ha podido eliminar con exito");
+			}
+		//7 Muestra todos los ficheros de ejercicios
+			archivos= directorio.listFiles();
+			if(archivos!=null) {
+				for (File archivo : archivos) {
+					System.out.println("  - "+archivo.getName());
+				}
+			}
+		//8 Prueba a eliminar el ejercicio1 otra vez 
+			if(ejercicio1.delete()) {
+				System.out.println("Ejercicio1 eliminado con exito");
+			} else {
+				System.out.println("El ejercicio1 no se ha podido eliminar con exito");
+			}
+	}
+
+}

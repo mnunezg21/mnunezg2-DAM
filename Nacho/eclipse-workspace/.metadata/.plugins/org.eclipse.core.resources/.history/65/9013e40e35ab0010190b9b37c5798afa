@@ -1,0 +1,10 @@
+package ejerciciosLibro.T1;
+
+public class Padre {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
