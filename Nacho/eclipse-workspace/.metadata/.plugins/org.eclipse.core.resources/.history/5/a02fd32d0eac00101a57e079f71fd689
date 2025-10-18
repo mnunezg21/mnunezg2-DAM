@@ -1,0 +1,62 @@
+package ejerciciosXML.TraducirXML;
+import org.w3c.dom.*;
+import javax.xml.parsers.*;
+import javax.xml.transform.*;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import java.io.File;
+
+public class Main {
+    public static void main(String[] args) {
+        try {
+            File inputFile = new File("biblio.xml");
+	        
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            Document doc = builder.parse(inputFile);
+            doc.getDocumentElement().normalize();
+            
+	        //Cambiar etiquetas principales
+            modificarEtiqueta(doc, "catalog", "catalogo");
+            modificarEtiqueta(doc, "book", "libro");
+            modificarEtiqueta(doc, "title", "titulo");
+            modificarEtiqueta(doc, "genre", "genero");
+            modificarEtiqueta(doc, "price", "precio");
+            modificarEtiqueta(doc, "publish_date", "fecha_publicacion");
+            modificarEtiqueta(doc, "description", "descripcion");
+            
+	        //Cambiar el nombre de la raíz 
+            Element root = doc.getDocumentElement();
+            if (root.getTagName().equals("catalog")) {
+                doc.renameNode(root, null, "catalogo");
+            }
+            
+	        //Guardar el documento traducido en un nuevo fichero
+            TransformerFactory transformerFactory = TransformerFactory.newInstance();
+            Transformer transformer = transformerFactory.newTransformer();
+	        
+            //Formato bonito
+            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+            transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
+	        
+            DOMSource source = new DOMSource(doc);
+            StreamResult result = new StreamResult(new File("libros.xml"));
+	        
+            transformer.transform(source, result);
+	        System.out.println("Archivo traducido y guardado");
+	        
+        } catch (Exception e) {
+            System.out.println(e.getMessage());;
+        }
+    }
+    
+	    //Funcion para cambiar etiquetas
+    private static void modificarEtiqueta(Document doc, String antigua, String nueva) {
+        NodeList lista = doc.getElementsByTagName(antigua);
+        
+        for (int i = 0; i < lista.getLength(); i++) {
+            Node nodo = lista.item(i);
+            doc.renameNode(nodo, null, nueva);
+        }
+    }
+}

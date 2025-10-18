@@ -8,7 +8,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
 public class Main {
-
+// Ejercicio 9
     public static Persona persona = new Persona();
     
     public static void main(String[] args) {
@@ -66,7 +66,7 @@ public class Main {
         } catch (IOException | ClassNotFoundException e) {
             System.err.println("Error al recuperar persona1");
             System.err.println(e.getMessage());
-            System.exit(-2)
+            System.exit(-2);
             return null; 
         }
     }

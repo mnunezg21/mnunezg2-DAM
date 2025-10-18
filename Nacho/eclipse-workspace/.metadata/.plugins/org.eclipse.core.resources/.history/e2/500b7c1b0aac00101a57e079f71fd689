@@ -1,0 +1,43 @@
+package ejerciciosXML.MostrarIds;
+
+import java.io.File;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+public class MostrarIds {
+
+	public static void main(String[] args) {
+		try {
+			File fileXML = new File("/libros.xml");
+			
+			//Crear parser
+			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+			Document doc = dBuilder.parse(fileXML);
+            
+			
+			//Obtener libros Por Nodos
+			System.out.println("Obteniendo Libros...");
+			NodeList listaLibros = doc.getElementsByTagName("book");
+			
+			//Obtener los ids de los libros
+			System.out.println("IDs de Libros: ");
+			for (int i = 0; i < listaLibros.getLength(); i++) {
+				Node nodo = listaLibros.item(i);
+				
+				if (nodo.getNodeType()== Node.ELEMENT_NODE) {
+					Element elemento = (Element) nodo;
+					System.out.println("ID del Libro: "+elemento.getAttribute("id"));
+				}
+			}
+		} catch(Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
+}

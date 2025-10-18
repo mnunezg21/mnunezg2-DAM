@@ -1,0 +1,44 @@
+package ejerciciosXML.ListaAutores;
+
+import java.io.File;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+
+public class Main {
+	public static void main(String[] args) {
+		try {
+            File xmlFile = new File("libros.xml");
+            
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+            Document doc = dBuilder.parse(xmlFile);
+            doc.getDocumentElement().normalize();
+
+            NodeList listaLibros = doc.getElementsByTagName("book");
+
+            System.out.println("Autores y sus libros:");
+
+            for (int i = 0; i < listaLibros.getLength(); i++) {
+                Node nodo = listaLibros.item(i);
+                if (nodo.getNodeType() == Node.ELEMENT_NODE) {
+                    Element libro = (Element) nodo;
+                    String autor = libro.getElementsByTagName("author").item(0).getTextContent();
+                    String titulo = libro.getElementsByTagName("title").item(0).getTextContent();
+                    System.out.println(autor + " → " + titulo);
+                }
+            }
+
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+		
+		
+	}
+}

@@ -1,0 +1,28 @@
+package LeerFicheroImagen;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class Main {
+	public static void main(String[] args) {
+		String ruta = "img.png";
+        try (FileInputStream fileInput = new FileInputStream(ruta)) {
+            System.out.println("Contenido binario del fichero de imagen:\n");
+            if (input == null) {
+                System.out.println("No se encontró el archivo img.png en el package.");
+                return;
+            }
+            int byteLeido;
+
+            // Leer byte a byte el contenido del fichero
+            while ((byteLeido = fileInput.read()) != -1) {
+                System.out.printf("%02X ", byteLeido);
+;
+
+            }
+        } catch (IOException e) {
+            System.out.println("Error al leer el fichero: " + e.getMessage());
+        }
+    }
+
+}

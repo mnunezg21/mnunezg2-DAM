@@ -1,0 +1,13 @@
+package LeerFicheroImagen;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class Main {
+	
+        } catch (IOException e) {
+            System.err.println("Error al leer el archivo: " + e.getMessage());
+        }
+    }
+
+}

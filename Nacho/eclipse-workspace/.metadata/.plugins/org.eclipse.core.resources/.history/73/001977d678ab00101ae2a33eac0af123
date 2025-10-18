@@ -1,0 +1,89 @@
+package Persona;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+
+public class Main {
+
+    public static Persona persona = new Persona();
+    
+    public static void main(String[] args) {
+        configurarObjeto();
+        // Crea una función para guardar un objeto Persona en un fichero con el nombre persona1
+        guardarObjeto(persona);
+        // Crea una función para recuperar un objeto Persona del fichero persona1
+        Persona personaRecuperada = recuperarObjeto();
+        
+        if (personaRecuperada != null) {
+            System.out.println("Persona recuperada del archivo:");
+            System.out.println(personaRecuperada);
+        }
+        // Modifica sus propiedades y vuelve a guardarlo en el fichero persona1
+        modificarYGuardar();
+    }
+    
+    private static void modificarYGuardar() {
+        Persona personaModificar = recuperarObjeto();
+        if(personaModificar == null) {
+            System.out.println("No se puede modificar, persona no recuperada");
+            return;
+        }
+        
+        System.out.println("Persona antes de modificar: " + personaModificar);
+        personaModificar.setId(2);
+        personaModificar.setNombre("persona2");
+        personaModificar.setEdad(19);
+        personaModificar.setDni("987654321R");
+        System.out.println("Persona después de modificar: " + personaModificar);
+        
+        guardarObjeto(personaModificar);
+        System.out.println("Persona modificada y guardada");    
+    }
+
+    private static void configurarObjeto() {
+        persona.setId(1);
+        persona.setNombre("persona1");
+        persona.setEdad(18);
+        persona.setDni("12345678X");
+        System.out.println("Persona creada: " + persona);
+    }
+
+    private static Persona recuperarObjeto() {
+         try {
+            ObjectInputStream objectInputStream = 
+                    new ObjectInputStream(
+                            new FileInputStream(
+                                    "ejercicios/persona1"));
+            
+            Persona personaRecuperada = (Persona) objectInputStream.readObject();
+            objectInputStream.close();
+            System.out.println("Persona recuperada");
+            return personaRecuperada;
+        } catch (IOException | ClassNotFoundException e) {
+            System.err.println("Error al recuperar persona1");
+            System.err.println(e.getMessage());
+            System.exit(-2);
+            return null; 
+        }
+    }
+    
+    private static void guardarObjeto(Persona persona) {
+        try {
+            ObjectOutputStream objectOutputStream = 
+                    new ObjectOutputStream(
+                            new FileOutputStream(
+                                    "ejercicios/persona1"));
+            objectOutputStream.writeObject(persona);
+            objectOutputStream.close();
+            System.out.println("Persona guardada exitosamente");
+        } catch (IOException e) {
+            System.err.println("Error al guardar persona");
+            System.err.println(e.getMessage());
+            System.exit(-1);
+        }
+    }
+}

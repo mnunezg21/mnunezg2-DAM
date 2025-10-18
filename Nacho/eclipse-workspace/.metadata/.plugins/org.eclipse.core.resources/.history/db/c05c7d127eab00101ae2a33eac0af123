@@ -1,0 +1,25 @@
+package LeerFicheroImagen;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class Main {
+	public static void main(String[] args) {
+
+        try (FileInputStream fileInput = new FileInputStream("img2.jpg")) {
+            System.out.println("Contenido binario del fichero de imagen:\n");
+
+            int byteLeido;
+
+            // Leer byte a byte el contenido del fichero
+            while ((byteLeido = fileInput.read()) != -1) {
+                System.out.printf("%02X ", byteLeido);
+;
+
+            }
+        } catch (IOException e) {
+            System.out.println("Error al leer el fichero: " + e.getMessage());
+        }
+    }
+
+}

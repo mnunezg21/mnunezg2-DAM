@@ -1,0 +1,19 @@
+package LeerFicheroImagen;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class Main {
+	public static void main(String[] args) {
+        try (FileInputStream fis = new FileInputStream("img.png")) {
+        	
+            int byteLeido;
+            while ((byteLeido = fis.read()) != -1) {
+                System.out.print(byteLeido + " ");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+}

@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 
 public class Main {
-
+//Ejercicio 10
 	public static void main(String[] args) {
 		// Crea un fichero de texto utilizando la clase FileWriter
 		File file = new File("ejercicios/ficheroInformacion");
