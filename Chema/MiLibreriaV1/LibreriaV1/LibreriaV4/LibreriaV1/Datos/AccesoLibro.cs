@@ -17,7 +17,6 @@ namespace LibreriaV2.Datos
 		} catch (Exception e) {
                 throw;
 		}
-
 	}
 
         // Se encarga de hacer el DELETE y borrar esa informacion de la base de datos 
