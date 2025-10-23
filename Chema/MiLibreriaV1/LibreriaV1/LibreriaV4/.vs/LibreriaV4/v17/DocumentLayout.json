@@ -1,121 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\libreriav4\\libreriav1\\datos\\utilsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|solutionrelative:libreriav1\\datos\\utilsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\libreriav1\\datos\\mapeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|solutionrelative:libreriav1\\datos\\mapeo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\libreriav1\\datos\\iacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|solutionrelative:libreriav1\\datos\\iacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\libreriav1\\datos\\accesolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|solutionrelative:libreriav1\\datos\\accesolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\libreriav4\\libreriav1\\datos\\accesobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|solutionrelative:libreriav1\\datos\\accesobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\libreriav4\\libreriav1\\vista\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|solutionrelative:libreriav1\\vista\\pantallaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\mnune\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UtilSQL.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\LibreriaV1\\Datos\\UtilSQL.cs",
-              "RelativeDocumentMoniker": "LibreriaV1\\Datos\\UtilSQL.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\LibreriaV1\\Datos\\UtilSQL.cs",
-              "RelativeToolTip": "LibreriaV1\\Datos\\UtilSQL.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAuwCwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T12:10:14.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PantallaPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\LibreriaV1\\Vista\\PantallaPrincipal.cs",
-              "RelativeDocumentMoniker": "LibreriaV1\\Vista\\PantallaPrincipal.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\LibreriaV1\\Vista\\PantallaPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "LibreriaV1\\Vista\\PantallaPrincipal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T10:39:57.259Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Mapeo.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\LibreriaV1\\Datos\\Mapeo.cs",
-              "RelativeDocumentMoniker": "LibreriaV1\\Datos\\Mapeo.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\LibreriaV1\\Datos\\Mapeo.cs",
-              "RelativeToolTip": "LibreriaV1\\Datos\\Mapeo.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T10:49:18.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccesoLibro.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\LibreriaV1\\Datos\\AccesoLibro.cs",
-              "RelativeDocumentMoniker": "LibreriaV1\\Datos\\AccesoLibro.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\LibreriaV1\\Datos\\AccesoLibro.cs",
-              "RelativeToolTip": "LibreriaV1\\Datos\\AccesoLibro.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAuwDsAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T09:53:35.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IAcceso.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\LibreriaV1\\Datos\\IAcceso.cs",
-              "RelativeDocumentMoniker": "LibreriaV1\\Datos\\IAcceso.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\LibreriaV1\\Datos\\IAcceso.cs",
-              "RelativeToolTip": "LibreriaV1\\Datos\\IAcceso.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T09:53:26.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AccesoBD.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\LibreriaV1\\Datos\\AccesoBD.cs",
-              "RelativeDocumentMoniker": "LibreriaV1\\Datos\\AccesoBD.cs",
-              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\LibreriaV1\\Datos\\AccesoBD.cs",
-              "RelativeToolTip": "LibreriaV1\\Datos\\AccesoBD.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAwwJoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T09:53:24.61Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
