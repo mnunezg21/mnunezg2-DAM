@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|solutionrelative:libreriav1\\datos\\iacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\libreriav4\\libreriav1\\datos\\utilsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\libreriav1\\datos\\utilsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7058990C-2AE1-4AC3-B11B-9ADCC6D14FC8}|LibreriaV1\\LibreriaV2.csproj|solutionrelative:libreriav1\\datos\\utilsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "LibreriaV1\\Datos\\AccesoBD.cs",
               "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\LibreriaV1\\Datos\\AccesoBD.cs",
               "RelativeToolTip": "LibreriaV1\\Datos\\AccesoBD.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEcAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAiwEcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-21T11:01:33.37Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "LibreriaV1\\Datos\\UtilSQL.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T12:10:14.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T12:10:14.077Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\LibreriaV4\\LibreriaV1\\Vista\\PantallaPrincipal.cs [Dise\u00F1o]",
               "RelativeToolTip": "LibreriaV1\\Vista\\PantallaPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T10:39:57.259Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-10-16T10:39:57.259Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "LibreriaV1\\Datos\\AccesoLibro.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAkwDwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T09:53:35.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T09:53:35.884Z"
             },
             {
               "$type": "Document",
@@ -93,8 +90,7 @@
               "RelativeToolTip": "LibreriaV1\\Datos\\IAcceso.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T09:53:26.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T09:53:26.936Z"
             }
           ]
         }
