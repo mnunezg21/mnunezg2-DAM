@@ -137,7 +137,7 @@ namespace LibreriaV2.Datos
             List<Object> objetos = new List<object>(); // Crea la lista de objetos que se devolverá
             MySqlDataReader dataReader = null; // Objeto que lee los datos devueltos por la consulta SQL
             try
-            {
+            { 
                 comando = new MySqlCommand(sql, conexion); // Crea la sentencia SQL 
                 dataReader = comando.ExecuteReader(); // Ejecuta la consulta y obtiene los resultados
 
