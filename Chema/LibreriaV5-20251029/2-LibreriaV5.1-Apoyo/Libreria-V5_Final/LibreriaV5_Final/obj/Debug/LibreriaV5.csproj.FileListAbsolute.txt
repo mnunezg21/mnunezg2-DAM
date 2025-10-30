@@ -1,0 +1,31 @@
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\z-VER\LibreriaV5 Limpia\LibreriaV3.1\bin\Debug\LibreriaV3.1.exe.config
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\z-VER\LibreriaV5 Limpia\LibreriaV3.1\bin\Debug\LibreriaV3.1.exe
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\z-VER\LibreriaV5 Limpia\LibreriaV3.1\bin\Debug\LibreriaV3.1.pdb
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\z-VER\LibreriaV5 Limpia\LibreriaV3.1\bin\Debug\MySql.Data.dll
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\z-VER\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV5.csprojResolveAssemblyReference.cache
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\z-VER\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.Clientes.resources
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\z-VER\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.ConsultarFacturas.resources
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\z-VER\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.InsertarFacturas.resources
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\z-VER\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3._1.Libro.resources
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\z-VER\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3._1.Properties.Resources.resources
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\z-VER\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.Principal.resources
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\z-VER\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV5.csproj.GenerateResource.Cache
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\z-VER\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV5.csproj.CoreCompileInputs.cache
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\z-VER\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3.1.exe
+G:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\ESCRITORIO\z-VER\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3.1.pdb
+G:\Code\Libreria-V5\LibreriaV3.1\bin\Debug\LibreriaV3.1.exe.config
+G:\Code\Libreria-V5\LibreriaV3.1\bin\Debug\LibreriaV3.1.exe
+G:\Code\Libreria-V5\LibreriaV3.1\bin\Debug\LibreriaV3.1.pdb
+G:\Code\Libreria-V5\LibreriaV3.1\bin\Debug\MySql.Data.dll
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5.csprojAssemblyReference.cache
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.Clientes.resources
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.ConsultarFacturas.resources
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.InsertarFacturas.resources
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Libro.resources
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Properties.Resources.resources
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.Principal.resources
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5.csproj.GenerateResource.cache
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5.csproj.CoreCompileInputs.cache
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5.csproj.CopyComplete
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV3.1.exe
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV3.1.pdb
