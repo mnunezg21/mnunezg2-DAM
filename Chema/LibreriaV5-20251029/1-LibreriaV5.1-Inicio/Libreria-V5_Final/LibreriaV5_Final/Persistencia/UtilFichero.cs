@@ -6,6 +6,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 namespace LibreriaV5_Final.Comun
 {
+    //Gestionar el almacenamiento y cacheo de sentencias SQL en un archivo.
     public static class UtilFichero
     {
         private static string ruta = "sql.txt";

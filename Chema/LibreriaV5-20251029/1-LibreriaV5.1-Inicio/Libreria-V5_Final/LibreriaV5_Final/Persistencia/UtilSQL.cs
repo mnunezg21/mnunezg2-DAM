@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
-//using LibreriaV5_Final.Persistencia;
 
 namespace LibreriaV5_Final.Persistencia
 {
+    //Generar sentencias SQL automáticamente mediante reflexión.
     public class UtilSQL
     {
         private static StringBuilder sql = new StringBuilder();
