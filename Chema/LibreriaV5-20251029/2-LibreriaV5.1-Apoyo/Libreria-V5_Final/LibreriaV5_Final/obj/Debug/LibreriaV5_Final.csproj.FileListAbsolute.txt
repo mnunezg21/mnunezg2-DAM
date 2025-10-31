@@ -1,0 +1,101 @@
+G:\Code\Libreria-V5\LibreriaV3.1\bin\Debug\MySql.Data.dll
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5_Final.csprojAssemblyReference.cache
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5_Final.csproj.GenerateResource.cache
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5_Final.csproj.CoreCompileInputs.cache
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5_Final.csproj.CopyComplete
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5_Final.Vista.FrmClientes.resources
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5_Final.Vista.FrmConsultarFacturas.resources
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5_Final.Vista.FrmInsertarFacturas.resources
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5_Final.Libro.resources
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5_Final.Vista.FrmPrincipal.resources
+G:\Code\Libreria-V5\LibreriaV3.1\bin\Debug\LibreriaV5_Final.exe.config
+G:\Code\Libreria-V5\LibreriaV3.1\bin\Debug\LibreriaV5_Final.exe
+G:\Code\Libreria-V5\LibreriaV3.1\bin\Debug\LibreriaV5_Final.pdb
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5_Final.Properties.Resources.resources
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5_Final.exe
+G:\Code\Libreria-V5\LibreriaV3.1\obj\Debug\LibreriaV5_Final.pdb
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.exe.config
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.exe
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.pdb
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\MySql.Data.dll
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csprojAssemblyReference.cache
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Vista.FrmClientes.resources
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Vista.FrmConsultarFacturas.resources
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Vista.FrmInsertarFacturas.resources
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Libro.resources
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Properties.Resources.resources
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Vista.FrmPrincipal.resources
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.GenerateResource.cache
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.CoreCompileInputs.cache
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.CopyComplete
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.exe
+G:\Code\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.pdb
+C:\Users\chema\Desktop\Libreria-V5_FinalOK\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.exe.config
+C:\Users\chema\Desktop\Libreria-V5_FinalOK\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.exe
+C:\Users\chema\Desktop\Libreria-V5_FinalOK\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.pdb
+C:\Users\chema\Desktop\Libreria-V5_FinalOK\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\MySql.Data.dll
+C:\Users\chema\Desktop\Libreria-V5_FinalOK\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csprojResolveAssemblyReference.cache
+C:\Users\chema\Desktop\Libreria-V5_FinalOK\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Vista.FrmConsultarFacturas.resources
+C:\Users\chema\Desktop\Libreria-V5_FinalOK\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Vista.FrmInsertarFacturas.resources
+C:\Users\chema\Desktop\Libreria-V5_FinalOK\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Libro.resources
+C:\Users\chema\Desktop\Libreria-V5_FinalOK\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Properties.Resources.resources
+C:\Users\chema\Desktop\Libreria-V5_FinalOK\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Vista.FrmPrincipal.resources
+C:\Users\chema\Desktop\Libreria-V5_FinalOK\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.GenerateResource.Cache
+C:\Users\chema\Desktop\Libreria-V5_FinalOK\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.CoreCompileInputs.cache
+C:\Users\chema\Desktop\Libreria-V5_FinalOK\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.exe
+C:\Users\chema\Desktop\Libreria-V5_FinalOK\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.pdb
+C:\Users\Sergio\Desktop\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.exe.config
+C:\Users\Sergio\Desktop\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.exe
+C:\Users\Sergio\Desktop\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.pdb
+C:\Users\Sergio\Desktop\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\MySql.Data.dll
+C:\Users\Sergio\Desktop\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csprojAssemblyReference.cache
+C:\Users\Sergio\Desktop\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Vista.FrmConsultarFacturas.resources
+C:\Users\Sergio\Desktop\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Vista.FrmInsertarFacturas.resources
+C:\Users\Sergio\Desktop\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Libro.resources
+C:\Users\Sergio\Desktop\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Properties.Resources.resources
+C:\Users\Sergio\Desktop\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Vista.FrmPrincipal.resources
+C:\Users\Sergio\Desktop\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.GenerateResource.cache
+C:\Users\Sergio\Desktop\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.CopyComplete
+C:\Users\Sergio\Desktop\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.exe
+C:\Users\Sergio\Desktop\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.pdb
+C:\Users\YERAY\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csprojAssemblyReference.cache
+C:\Users\YERAY\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Vista.FrmConsultarFacturas.resources
+C:\Users\YERAY\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Vista.FrmInsertarFacturas.resources
+C:\Users\YERAY\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Libro.resources
+C:\Users\YERAY\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Properties.Resources.resources
+C:\Users\YERAY\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Vista.FrmPrincipal.resources
+C:\Users\YERAY\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.GenerateResource.cache
+C:\Users\YERAY\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.CoreCompileInputs.cache
+C:\Users\YERAY\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.exe
+C:\Users\YERAY\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.pdb
+C:\Users\YERAY\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.exe.config
+C:\Users\YERAY\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.exe
+C:\Users\YERAY\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.pdb
+C:\Users\YERAY\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\MySql.Data.dll
+C:\Users\YERAY\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.CopyComplete
+C:\Users\alumno\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.exe.config
+C:\Users\alumno\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.exe
+C:\Users\alumno\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.pdb
+C:\Users\alumno\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\MySql.Data.dll
+C:\Users\alumno\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Properties.Resources.resources
+C:\Users\alumno\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Vista.FrmPrincipal.resources
+C:\Users\alumno\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.GenerateResource.cache
+C:\Users\alumno\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.CopyComplete
+C:\Users\alumno\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.exe
+C:\Users\alumno\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.pdb
+C:\Users\alumno\Desktop\LibreriaV5.1\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Cuadro.resources
+C:\Users\chema\Desktop\EXAMEN-DAM\Yeray Cózar Carmona\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.exe.config
+C:\Users\chema\Desktop\EXAMEN-DAM\Yeray Cózar Carmona\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.exe
+C:\Users\chema\Desktop\EXAMEN-DAM\Yeray Cózar Carmona\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\LibreriaV5_Final.pdb
+C:\Users\chema\Desktop\EXAMEN-DAM\Yeray Cózar Carmona\Libreria-V5_Final\LibreriaV5_Final\bin\Debug\MySql.Data.dll
+C:\Users\chema\Desktop\EXAMEN-DAM\Yeray Cózar Carmona\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csprojResolveAssemblyReference.cache
+C:\Users\chema\Desktop\EXAMEN-DAM\Yeray Cózar Carmona\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Cuadro.resources
+C:\Users\chema\Desktop\EXAMEN-DAM\Yeray Cózar Carmona\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Properties.Resources.resources
+C:\Users\chema\Desktop\EXAMEN-DAM\Yeray Cózar Carmona\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.Vista.FrmPrincipal.resources
+C:\Users\chema\Desktop\EXAMEN-DAM\Yeray Cózar Carmona\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.GenerateResource.Cache
+C:\Users\chema\Desktop\EXAMEN-DAM\Yeray Cózar Carmona\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.csproj.CoreCompileInputs.cache
+C:\Users\chema\Desktop\EXAMEN-DAM\Yeray Cózar Carmona\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.exe
+C:\Users\chema\Desktop\EXAMEN-DAM\Yeray Cózar Carmona\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.pdb
