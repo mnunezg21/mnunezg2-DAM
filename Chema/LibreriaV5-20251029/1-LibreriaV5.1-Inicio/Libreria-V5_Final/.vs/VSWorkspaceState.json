@@ -4,10 +4,9 @@
     "\\BBDD",
     "\\LibreriaV5_Final",
     "\\LibreriaV5_Final\\Negocio",
-    "\\LibreriaV5_Final\\obj\\Release",
     "\\LibreriaV5_Final\\Persistencia",
     "\\LibreriaV5_Final\\Vista"
   ],
-  "SelectedNode": "\\LibreriaV5_Final\\Program.cs",
+  "SelectedNode": "\\LibreriaV5_Final\\Persistencia\\UtilFichero.cs",
   "PreviewInSolutionExplorer": false
 }

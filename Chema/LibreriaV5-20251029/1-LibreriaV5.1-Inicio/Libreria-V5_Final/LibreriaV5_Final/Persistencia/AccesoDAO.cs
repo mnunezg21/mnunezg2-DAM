@@ -106,40 +106,6 @@ namespace LibreriaV5_Final.Persistencia
             catch (Exception) { throw; }
             return obj;
         }
-        //
-        /*public object Buscar(Type clase, string nombre)
-        {
-            List<object> list = null;
-            Object obj = null;
-
-            String sql;
-            if ((sql = UtilFichero.ExisteSentencia("SELECTONE" + clase.Name)) == null)
-            {
-                try
-                {
-                    //De esta forma se puede ver mejor la construcción de la orden SQL.
-                    //sql=UtilFichero.GuardarSQL("SELECTONE" + clase.Name, UtilSQL.SqlBuscar(clase))
-                    //if ((list = EjecutarConsulta(sql, clase, nombre)).Count != 0)
-                    if ((list = EjecutarConsulta(UtilFichero.GuardarSQL("SELECTONE" + clase.Name, UtilSQL.SqlBuscar(clase)), clase, nombre)).Count != 0)
-                    {
-                        obj = list.First();
-                    }
-                }
-                catch (Exception) { throw; }
-            }
-            else
-            {
-                try
-                {
-                    if ((list = EjecutarConsulta(sql, clase, nombre)).Count != 0)
-                    {
-                        obj = list.First();
-                    }
-                }
-                catch (Exception) { throw; }
-            }
-            return obj;
-        }*/
 
         public List<object> Buscar(Type clase, string campo, string busqueda)
         {

@@ -29,8 +29,7 @@ namespace LibreriaV5_Final.Persistencia
         {
             try
             {
-                //"SELECT * FROM admin WHERE admin_username=@val1 AND admin_password=PASSWORD(@val2)"
-                comando = new MySqlCommand(sql, connection); ///Esto es como preparedStatement
+                comando = new MySqlCommand(sql, connection); 
                 PropertyInfo[] propertyInfo = objeto.GetType().GetProperties();
                 int index = 1;
 

@@ -15,6 +15,7 @@ namespace LibreriaV5_Final.Comun
 
         public static string GuardarSQL(string orden, string sql)
         {
+            //Guarda las sentencias ejecutadas en el diccionario
             SENTENCIAS.Add(orden, sql);
             return sql;
         }
@@ -22,6 +23,7 @@ namespace LibreriaV5_Final.Comun
         public static string ExisteSentencia(string orden)
         {
             String sentencia = null;
+            //Si el diccionario contiene esa clave, la obtiene
             if (SENTENCIAS.ContainsKey(orden))
             {
                 sentencia = SENTENCIAS[orden];
@@ -34,17 +36,23 @@ namespace LibreriaV5_Final.Comun
         {
             try
             {
+                //Comprueba si el arhcivo binario existe o esta vacio 
                 if (ComprobarArchivo() && File.ReadAllLines(ruta).Count() > 0)
                 {
+                    //using
+                    //Abre el archivo en modo lectura
                     using (var stream = File.OpenRead(ruta))
                     {
+                        //Convierte los bytes a un Dictionary<string, string>
                         SENTENCIAS = (Dictionary<string, string>)serializer.Deserialize(stream);
+                        //Cierra el flujo de lectura
                         stream.Close();
                     }
 
                 }
                 else
                 {
+                    //Si no hay archivo o esta vacio crea un nuevo diccionario
                     SENTENCIAS = new Dictionary<string, string>();
                 }
             }
@@ -55,12 +63,15 @@ namespace LibreriaV5_Final.Comun
         {
             try
             {
+                //Si el archivo existe y hay algo en el diccionario
                 if (ComprobarArchivo() && SENTENCIAS != null)
                 {
+                    //Abre el archivo en modo lectura(sobrescribe)
                     using (var stream = File.OpenWrite(ruta))
                     {
+                        //Serializa el diccionario (convierte el objeto en bytes)
                         serializer.Serialize(stream, SENTENCIAS);
-                        stream.Close();
+                        stream.Close();//Cierra el flujo de escritura
                     }
                 }
             }
@@ -70,10 +81,12 @@ namespace LibreriaV5_Final.Comun
         private static bool ComprobarArchivo()
         {
             bool existe = false;
+            // Si el arhcivo no existe en esa ruta
             if (!File.Exists(ruta))
             {
                 try
                 {
+                    // Lo crea y lo cierra inmediatamente
                     File.Create(ruta).Close();
                     existe = true;
                 }
