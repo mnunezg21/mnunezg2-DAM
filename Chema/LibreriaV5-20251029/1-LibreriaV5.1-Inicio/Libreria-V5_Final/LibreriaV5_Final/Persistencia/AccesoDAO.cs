@@ -7,18 +7,19 @@ namespace LibreriaV5_Final.Persistencia
 {
     public class AccesoDAO<T> : AccesoBD, IAcceso<T> where T : new()
     {
+
+        // 
         public bool BorradoVirtual(object objeto)
         {
             bool borrado = false;
             StartTransaction();
             string sql;
-            // Ver si se puede mejorar sin necesidad de recorrer todas las propiedades del objeto
-            // Tener en cuenta, que el campo con el nombre Borrado lo tendrán todas las tablas.
+            //Recore las propiedades del objeto, 
             foreach (var item in objeto.GetType().GetProperties())
             {
-                if (item.Name.Contains("Borra"))
+                if (item.Name.Contains("Borra"))//Si la propiedad contiene "Borra"
                 {
-                    item.SetValue(objeto, "1");
+                    item.SetValue(objeto, "1");//Marca el objeto como borrado
                 }
             }
             if ((sql = UtilFichero.ExisteSentencia("BORRADOVIRTUAL" + objeto.GetType().Name)) == null)
@@ -49,6 +50,7 @@ namespace LibreriaV5_Final.Persistencia
             return borrado;
         }
 
+        //
         public bool Borrar(object objeto)
         {
             bool borrado = false;
@@ -82,6 +84,7 @@ namespace LibreriaV5_Final.Persistencia
 
             return borrado;
         }
+
         //
         public object Buscar(Type clase, string nombre)
         {
@@ -106,6 +109,7 @@ namespace LibreriaV5_Final.Persistencia
             catch (Exception) { throw; }
             return obj;
         }
+
 
         public List<object> Buscar(Type clase, string campo, string busqueda)
         {
