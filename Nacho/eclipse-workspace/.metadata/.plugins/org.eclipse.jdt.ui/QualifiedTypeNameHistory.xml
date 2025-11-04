@@ -18,4 +18,8 @@
     <fullyQualifiedTypeName name="java.io.RandomAccessFile"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.nio.file.Paths"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="ejemplo1.util.ConexionBD"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="ejemplo1.modelo.Alumno"/>
 </qualifiedTypeNameHistroy>
