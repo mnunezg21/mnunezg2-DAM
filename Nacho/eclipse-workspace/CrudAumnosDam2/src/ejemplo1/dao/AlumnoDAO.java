@@ -57,7 +57,7 @@ public class AlumnoDAO {
 		return lista;
 	}
 	
-	//Update
+	//UPDATE
 	public boolean actualizarAlumno(Alumno alumno) {
 		String sql = "UPDATE INT alumno nombre = ?, apellido = ?, email = ?, curso = ? WHERE id = ?";
 		try(Connection conn = ConexionBD.getConnection();
@@ -94,5 +94,7 @@ public class AlumnoDAO {
 			System.err.println("Error al borrar al alumno en la BD: "+e.getMessage()); 
 			return false;
 		}
+		
+		
 	} 
 }

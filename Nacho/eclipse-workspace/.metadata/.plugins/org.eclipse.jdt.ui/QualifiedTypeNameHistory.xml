@@ -22,4 +22,7 @@
     <fullyQualifiedTypeName name="ejemplo1.util.ConexionBD"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="ejemplo1.modelo.Alumno"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="ventas.modelo.Cliente"/>
+    <fullyQualifiedTypeName name="ventas.dao.VentasDao"/>
 </qualifiedTypeNameHistroy>
