@@ -59,6 +59,7 @@ namespace LibreriaV5_Final.Comun
             catch (Exception) { throw; }
         }
 
+        //aqui
         public static void EscribirDictionarySentenciasFichero()
         {
             try
@@ -78,6 +79,7 @@ namespace LibreriaV5_Final.Comun
             catch (Exception) { throw; }
         }
 
+        //aqui
         private static bool ComprobarArchivo()
         {
             bool existe = false;

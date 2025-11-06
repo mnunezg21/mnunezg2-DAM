@@ -57,6 +57,7 @@ namespace LibreriaV5_Final.Persistencia
 
             }
             catch (Exception) { throw; }
+            //ejecuta el comando
             return comando.ExecuteNonQuery() > 0;
         }
 

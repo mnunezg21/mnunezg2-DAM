@@ -5,10 +5,11 @@ using System.Linq;
 
 namespace LibreriaV5_Final.Persistencia
 {
+    //aqui
     public class AccesoDAO<T> : AccesoBD, IAcceso<T> where T : new()
     {
 
-        // 
+        //aqui 
         public bool BorradoVirtual(object objeto)
         {
             bool borrado = false;
@@ -21,7 +22,7 @@ namespace LibreriaV5_Final.Persistencia
                 {
                     item.SetValue(objeto, "1");//Marca el objeto como borrado
                 }
-            }
+            }//aqui
             if ((sql = UtilFichero.ExisteSentencia("BORRADOVIRTUAL" + objeto.GetType().Name)) == null)
             {
                 try
@@ -33,7 +34,7 @@ namespace LibreriaV5_Final.Persistencia
                     }
                 }
                 catch (Exception) { RollBack(); throw; }
-            }
+            }//aqui
             else
             {
                 try
