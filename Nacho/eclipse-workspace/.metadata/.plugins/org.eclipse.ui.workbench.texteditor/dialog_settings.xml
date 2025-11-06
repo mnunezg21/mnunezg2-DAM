@@ -6,7 +6,9 @@
 		<item key="DIALOG_Y_ORIGIN" value="285"/>
 	</section>
 	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="false"/>
 		<list key="findhistory">
+			<item value="nextLine"/>
 			<item value="libros.xml"/>
 		</list>
 	</section>

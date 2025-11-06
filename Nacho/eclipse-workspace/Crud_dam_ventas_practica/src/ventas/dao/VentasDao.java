@@ -15,33 +15,54 @@ import ventas.util.ConexionBD;
 
 public class VentasDao {
 	
-	//INSERT de pedido | Falta Validación
-	public boolean insertarPedido(Pedido pedido) {
+	//INSERT de pedido
+	public boolean insertarPedido(int idCliente,Pedido pedido) {
 		LocalDate fecha = LocalDate.now();
-		String sql = "INSERT INTO pedido (id_cliente,id_pedido,fecha_pedido,total,estado) VALUES (?,?,?,?)";
-		try(Connection conn = ConexionBD.getConnection();
-			PreparedStatement prst = conn.prepareStatement(sql);){
+		String sql = "INSERT INTO pedido (id_cliente,fecha_pedido,total,estado) VALUES (?,?,?,?)";
+		if(comprobarExistenciaCliente(idCliente)) {
+			try(Connection conn = ConexionBD.getConnection();
+					PreparedStatement prst = conn.prepareStatement(sql);){
+					
+					prst.setInt(1, pedido.getId_cliente());
+					prst.setString(2, fecha.toString());
+					prst.setFloat(3, pedido.getTotal());
+					prst.setString(4, pedido.getEstado());
+					
+					int filasAfectadas = prst.executeUpdate();
+					return filasAfectadas > 0;
+				} 
+				catch(SQLException e) { 
+					System.err.println("Error al insertar el pedido en la BD: "+e.getMessage()); 
+					return false;
+				}
+		}
+		System.out.println("No se pudo insertar pedido para este cliente");
+		return false;
+	}
+	
+	public boolean comprobarExistenciaCliente(int idCliente) {
+		String sql = "SELECT id_cliente FROM cliente WHERE id_cliente="+idCliente+"";
+		try(
+			Connection conn = ConexionBD.getConnection();
+			Statement st = conn.createStatement();
+			ResultSet rs= st.executeQuery(sql)){
 			
-			prst.setInt(1, pedido.getId_cliente());
-			prst.setInt(1, pedido.getId_pedido());
-			prst.setString(2, fecha.toString());
-			prst.setFloat(3, pedido.getTotal());
-			prst.setString(4, pedido.getEstado());
-			
-			int filasAfectadas = prst.executeUpdate();
-			return filasAfectadas > 0;
-		} 
-		catch(SQLException e) { 
-			System.err.println("Error al insertar el pedido en la BD: "+e.getMessage()); 
+			if(rs.next()) {
+				return rs.getInt("id_cliente")==idCliente;
+			}
+			else System.out.println("Este codigo no pertenece a nigun cliente"); return false;
+		} catch(SQLException e) {
+			System.err.println("Error al comprobar el cliente en la BD: "+e.getMessage()); 
 			return false;
 		}
 	}
 	
-	//SELECT pedidos de un cliente | 
+	
+	//SELECT pedidos de un cliente
 	public List<Pedido> obtenerPedidosDeCliente(int idCliente){
 		List<Pedido> listaPedidos = new ArrayList<>();
 		
-		String sql = "SELECT id_pedido, fecha_pedido, total, estado FROM cliente WHERE id_cliente = "+idCliente+"";
+		String sql = "SELECT id_pedido, fecha_pedido, total, estado FROM pedido WHERE id_cliente = "+idCliente+"";
 		
 		try(
 			Connection conn = ConexionBD.getConnection();
@@ -53,7 +74,6 @@ public class VentasDao {
 				listaPedidos.add(pedido);
 			} 
 			
-			
 		} catch(SQLException e){
 			System.err.println("Error al obtener los clientes: "+e.getMessage());
 		}	
@@ -62,7 +82,7 @@ public class VentasDao {
 	
 	//UPDATE 
 	public boolean actualizarEstadoPedido(int idPedido, String nuevoEstado) {
-		String sql = "UPDATE INT pedido estado = ? WHERE id_pedido = ?";
+		String sql = "UPD pedido SET estado = ? WHERE id_pedido = ?";
 		
 		try(Connection conn = ConexionBD.getConnection();
 			PreparedStatement prst = conn.prepareStatement(sql);){

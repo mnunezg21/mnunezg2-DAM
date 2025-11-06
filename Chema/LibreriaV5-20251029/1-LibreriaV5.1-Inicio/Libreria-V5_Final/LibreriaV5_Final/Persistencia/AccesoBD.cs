@@ -60,7 +60,7 @@ namespace LibreriaV5_Final.Persistencia
             return comando.ExecuteNonQuery() > 0;
         }
 
-        // Ejecuta sentencias SQL de tipo SELECT y pide un sql, una clase y el nombre 
+        // Ejecuta sentencias SQL de tipo SELECT y pide un sql, una clase y el çnombre 
         public List<object> EjecutarConsulta(string sql, Type clase, string nombre)
         {
             List<object> objetos = null; // Lista de objetos que se devolveran
