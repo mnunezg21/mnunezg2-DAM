@@ -4,10 +4,10 @@ public class Pedido {
 	private int id_pedido;
 	private int id_cliente;
 	private String fecha_pedido;
-	private float total;
+	private double total;
 	private String estado;
 	
-	public Pedido(int id_pedido, int id_cliente, String fecha_pedido, float total, String estado) {
+	public Pedido(int id_pedido, int id_cliente, String fecha_pedido, double total, String estado) {
 		this.id_pedido = id_pedido;
 		this.id_cliente = id_cliente;
 		this.fecha_pedido = fecha_pedido;
@@ -15,7 +15,7 @@ public class Pedido {
 		this.estado = estado;
 	}
 
-	public Pedido(int id_cliente, String fecha_pedido, float total, String estado) {
+	public Pedido(int id_cliente, String fecha_pedido, double total, String estado) {
 		this.id_cliente = id_cliente;
 		this.fecha_pedido = fecha_pedido;
 		this.total = total;
@@ -46,11 +46,11 @@ public class Pedido {
 		this.fecha_pedido = fecha_pedido;
 	}
 
-	public float getTotal() {
+	public double getTotal() {
 		return total;
 	}
 
-	public void setTotal(float total) {
+	public void setTotal(double total) {
 		this.total = total;
 	}
 

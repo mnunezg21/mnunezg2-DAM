@@ -50,7 +50,7 @@ public class Main {
 	private static void crearNuevoPedido() {
 		int id_cliente;
 		String fecha_pedido;
-		float total;
+		double total;
 		String estado;
 		
 		boolean bool=false;
@@ -61,10 +61,10 @@ public class Main {
 		System.out.println("Introduciendo la fecha de realizacion del pedido... ");
 		fecha_pedido = java.time.LocalDate.now().toString();
 		System.out.println("Introduce el total: ");
-		total = teclado.nextFloat();
+		total = teclado.nextDouble();
 		do {
 			System.out.println("Introduce el estado(PENDIENTE, ENVIADO, ENTREGADO o CANCELADO): ");
-			estado = teclado.nextLine();
+			estado = teclado.next();
 			if(estado.equalsIgnoreCase("PENDIENTE") || 
 			   estado.equalsIgnoreCase("ENVIADO")   || 
 			   estado.equalsIgnoreCase("ENTREGADO") || 
@@ -136,14 +136,18 @@ public class Main {
 
 
 	private static void aplicarDescuento() {
-		
-		
+		 System.out.println("Introduce el ID del pedido: ");
+		    int id_pedido = teclado.nextInt();
+
+		    System.out.println("Introduce el porcentaje de descuento: ");
+		    double descuento = teclado.nextDouble();
+		    
+		    ventasDao.aplicarDescuento(id_pedido, descuento);
 	}
 
 
 	private static void recogerInformacionEsquema() {
-		
-		
+		ventasDao.obtenerInfoEsquema();	
 	}
 
 
@@ -157,5 +161,4 @@ public class Main {
 						  "\n0. Salir");
 		return teclado.nextInt();
 	}
-
 }
