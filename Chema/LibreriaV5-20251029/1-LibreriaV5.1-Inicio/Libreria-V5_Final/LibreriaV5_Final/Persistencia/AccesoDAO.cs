@@ -51,20 +51,21 @@ namespace LibreriaV5_Final.Persistencia
             return borrado;
         }
 
-        //
+        // 
         public bool Borrar(object objeto)
         {
             bool borrado = false;
-
+            //Inicia la transaccion
             StartTransaction();
             string sql;
+            //Si la sentencia sql DELETE existe 
             if ((sql = UtilFichero.ExisteSentencia("DELETE" + objeto.GetType().Name)) == null)
             {
                 try
-                {
+                { //
                     if (EjecutarUpdate(UtilFichero.GuardarSQL("DELETE" + objeto.GetType().Name, UtilSQL.SqlBorrar(objeto)), objeto))
                     {
-                        Commit();
+                        Commit();// realiza el commit del sql
                         borrado = true;
                     }
                 }
@@ -73,7 +74,7 @@ namespace LibreriaV5_Final.Persistencia
             else
             {
                 try
-                {
+                { //Ejecuta la sentencia sql si ya estaba guardado en el diccionario
                     if (EjecutarUpdate(sql, objeto))
                     {
                         Commit();
@@ -96,14 +97,18 @@ namespace LibreriaV5_Final.Persistencia
             {
                 // Si la orden SQL no existe se guarda en un Dictionary, que al terminar
                 // el programa guardará todas las órdenes en el fichero sql.txt
+                //Comprueba si no existe la sentencia y si no existe la guarda
                 if ((sql = UtilFichero.ExisteSentencia("SELECTONE" + clase.Name)) == null)
                 {
                     //De esta forma se puede ver mejor la construcción de la orden SQL.
+                    //Guarda la sentencia con SELECTONE del nombre de la clase con una sentencia
                     sql = UtilFichero.GuardarSQL("SELECTONE" + clase.Name, UtilSQL.SqlBuscar(clase));    
                 }
                 //if ((list = EjecutarConsulta(sql, clase, nombre)).Count != 0)
+                //
                 if ((list=EjecutarConsulta(sql, clase, nombre)).Count != 0)
                     {
+                    //Obtiene el primer objeto de la lista                                              
                      obj = list.First();
                     }                
             }

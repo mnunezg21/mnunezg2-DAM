@@ -13,6 +13,8 @@ namespace LibreriaV5_Final.Comun
         private static Dictionary<string, string> SENTENCIAS;
         static BinaryFormatter serializer = new BinaryFormatter();
 
+
+        //Se encarga de guardar el sql en el diccionario, con la clave valor
         public static string GuardarSQL(string orden, string sql)
         {
             //Guarda las sentencias ejecutadas en el diccionario
