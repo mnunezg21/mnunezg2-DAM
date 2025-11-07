@@ -34,6 +34,7 @@ namespace LibreriaV5_Final.Comun
             return sentencia;
         }
 
+        //Se encarga de rellenar el dicccionario de las sentencias del fichero
         public static void RellenarDictionarySentencias()
         {
             try
@@ -61,7 +62,7 @@ namespace LibreriaV5_Final.Comun
             catch (Exception) { throw; }
         }
 
-        //aqui
+        //Se encarga de escribir las sentencias del diccionario en el fichero 
         public static void EscribirDictionarySentenciasFichero()
         {
             try

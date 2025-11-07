@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace LibreriaV5_Final.Persistencia
 {
-    //aqui
+    //Instanciar un objeto generico 
     public class AccesoDAO<T> : AccesoBD, IAcceso<T> where T : new()
     {
 
@@ -22,11 +22,12 @@ namespace LibreriaV5_Final.Persistencia
                 {
                     item.SetValue(objeto, "1");//Marca el objeto como borrado
                 }
-            }//aqui
+            }//Si la sentencia sql BorrradoVirtual existe
             if ((sql = UtilFichero.ExisteSentencia("BORRADOVIRTUAL" + objeto.GetType().Name)) == null)
             {
                 try
-                {
+                {   // Ejecuta el update con el Borrado Virtual actualizado
+                    // Guarda el sql de Borrado en el diccionario                                          // crea el update con la clave 
                     if (EjecutarUpdate(UtilFichero.GuardarSQL("BORRADOVIRTUAL" + objeto.GetType().Name, UtilSQL.SqlModificar(objeto)), objeto))
                     {
                         Commit();
@@ -34,11 +35,11 @@ namespace LibreriaV5_Final.Persistencia
                     }
                 }
                 catch (Exception) { RollBack(); throw; }
-            }//aqui
+            }
             else
             {
                 try
-                {
+                {//Si exitia el sql en el diccionario, ejecuta ese sql
                     if (EjecutarUpdate(sql, objeto))
                     {
                         Commit();
@@ -87,7 +88,7 @@ namespace LibreriaV5_Final.Persistencia
             return borrado;
         }
 
-        //
+        //Se encarga de buscar el objeto completo segun el tipo de clase que se le introduzca
         public object Buscar(Type clase, string nombre)
         {
             List<object> list = null;
@@ -105,7 +106,7 @@ namespace LibreriaV5_Final.Persistencia
                     sql = UtilFichero.GuardarSQL("SELECTONE" + clase.Name, UtilSQL.SqlBuscar(clase));    
                 }
                 //if ((list = EjecutarConsulta(sql, clase, nombre)).Count != 0)
-                //
+                //Si la lista que se rellena con el ejecutarConsulta contiene algo, se ejecuta3  
                 if ((list=EjecutarConsulta(sql, clase, nombre)).Count != 0)
                     {
                     //Obtiene el primer objeto de la lista                                              
@@ -116,7 +117,7 @@ namespace LibreriaV5_Final.Persistencia
             return obj;
         }
 
-
+        //
         public List<object> Buscar(Type clase, string campo, string busqueda)
         {
             String sql = "SELECT * FROM " + clase.Name + " WHERE " + campo + " = \"" + busqueda + "\"";
@@ -127,6 +128,7 @@ namespace LibreriaV5_Final.Persistencia
             catch (Exception) { throw; }
         }
 
+        //
         public bool Insertar(T objeto)
         {
             bool insertado = false;
@@ -161,15 +163,17 @@ namespace LibreriaV5_Final.Persistencia
 
         }
   
+        //
         public bool Modificar(T objeto)
         {
             bool modificado = false;
             StartTransaction();
             string sql;
+            //
             if ((sql = UtilFichero.ExisteSentencia("UPDATE" + objeto.GetType().Name)) == null)
             {
                 try
-                {
+                {//
                     if (EjecutarUpdate(UtilFichero.GuardarSQL("UPDATE" + objeto.GetType().Name, UtilSQL.SqlModificar(objeto)), objeto))
                     {
                         Commit();
@@ -181,7 +185,7 @@ namespace LibreriaV5_Final.Persistencia
             else
             {
                 try
-                {
+                {//
                     if (EjecutarUpdate(sql, objeto))
                     {
                         Commit();
@@ -194,14 +198,16 @@ namespace LibreriaV5_Final.Persistencia
             return modificado;
         }
 
+        //
         public List<Object> Obtener(Type clase)
         {
             List<Object> obj = null;
             string sql;
+            //
             if ((sql = UtilFichero.ExisteSentencia("SELECTALL" + clase.Name)) == null)
             {
                 try
-                {
+                {//
                     obj = EjecutarConsulta(UtilFichero.GuardarSQL("SELECTALL" + clase.Name, UtilSQL.SqlObtener(clase)), clase, "");
                 }
                 catch (Exception) { throw; }
@@ -209,7 +215,7 @@ namespace LibreriaV5_Final.Persistencia
             else
             {
                 try
-                {
+                {//
                     obj = EjecutarConsulta(sql, clase, "");
                 }
                 catch (Exception) { throw; }

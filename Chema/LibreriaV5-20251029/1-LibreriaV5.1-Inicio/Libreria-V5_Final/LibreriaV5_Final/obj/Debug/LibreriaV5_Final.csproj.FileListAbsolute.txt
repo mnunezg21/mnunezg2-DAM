@@ -61,3 +61,5 @@ F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV5\Libreria
 F:\CASTELAR\SEGUNDO\CURSO-19-20\2-NET\2-ESCRITORIO\1-PARTIDA\LibreriaV5\LibreriaV5.1\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.pdb
 C:\Users\mnune\Documents\GitHub\mnunezg2-DAM\Chema\LibreriaV5-20251029\1-LibreriaV5.1-Inicio\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.exe
 C:\Users\mnune\Documents\GitHub\mnunezg2-DAM\Chema\LibreriaV5-20251029\1-LibreriaV5.1-Inicio\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.pdb
+C:\Users\dam2\Documents\GitHub\mnunezg2-DAM\Chema\LibreriaV5-20251029\1-LibreriaV5.1-Inicio\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.exe
+C:\Users\dam2\Documents\GitHub\mnunezg2-DAM\Chema\LibreriaV5-20251029\1-LibreriaV5.1-Inicio\Libreria-V5_Final\LibreriaV5_Final\obj\Debug\LibreriaV5_Final.pdb
