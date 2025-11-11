@@ -1,15 +1,20 @@
 package modelo;
 
+import java.util.List;
+
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 
 public class Cliente {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="id_cliente")
-	private int idCliente;
+	private int id;
 	
 	@Column(name = "nombre")
 	private String nombre;
@@ -23,30 +28,32 @@ public class Cliente {
 	@Column(name = "telefono")
 	private String telefono;
 	
+	@OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+	private List<Pedido> pedidos;
+	
+	
 	public Cliente() {
 	}
 
-	public Cliente(int id_cliente, String nombre, String apellido, String email, String telefono) {
-		this.idCliente = id_cliente;
+	public Cliente(int id_cliente, String nombre, String apellido, String email) {
+		this.id = id_cliente;
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.email = email;
-		this.telefono = telefono;
 	}
 	
-	public Cliente(String nombre, String apellido, String email, String telefono) {
+	public Cliente(String nombre, String apellido, String email) {
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.email = email;
-		this.telefono = telefono;
 	}
 
 	public int getId_cliente() {
-		return idCliente;
+		return id;
 	}
 
 	public void setId_cliente(int id_cliente) {
-		this.idCliente = id_cliente;
+		this.id = id_cliente;
 	}
 
 	public String getNombre() {
@@ -83,7 +90,7 @@ public class Cliente {
 
 	@Override
 	public String toString() {
-		return "Cliente [id_cliente=" + idCliente + ", nombre=" + nombre + ", apellido=" + apellido + ", email="
+		return "Cliente [id_cliente=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", email="
 				+ email + ", telefono=" + telefono + "]";
 	}
 }

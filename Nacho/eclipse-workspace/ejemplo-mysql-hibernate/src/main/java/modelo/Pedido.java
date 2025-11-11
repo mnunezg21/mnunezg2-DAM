@@ -17,25 +17,25 @@ public class Pedido {
 	private LocalDate fechaPedido;
 	
 	@Column(name="total")
-	private float total;
+	private double total;
 	
 	@Enumerated(EnumType.STRING)
 	@Column(name = "estado")
-	private String estado;
+	private EstadoPedido estado;
 	
 	
 	
 	public Pedido() {
 	}
 
-	public Pedido(int idPedido, Cliente cliente, float total, String estado) {
+	public Pedido(int idPedido, Cliente cliente, double total, EstadoPedido estado) {
 		this.idPedido = idPedido;
 		this.cliente = cliente;
 		this.total = total;
 		this.estado = estado;
 	}
 
-	public Pedido(Cliente cliente, float total, String estado) {
+	public Pedido(Cliente cliente, double total, EstadoPedido estado) {
 		this.cliente = cliente;
 		this.total = total;
 		this.estado = estado;
@@ -67,19 +67,19 @@ public class Pedido {
 		this.fechaPedido = fechaPedido;
 	}
 
-	public float getTotal() {
+	public double getTotal() {
 		return total;
 	}
 
-	public void setTotal(float total) {
+	public void setTotal(double total) {
 		this.total = total;
 	}
 
-	public String getEstado() {
+	public EstadoPedido getEstado() {
 		return estado;
 	}
 
-	public void setEstado(String estado) {
+	public void setEstado(EstadoPedido estado) {
 		this.estado = estado;
 	}
 
