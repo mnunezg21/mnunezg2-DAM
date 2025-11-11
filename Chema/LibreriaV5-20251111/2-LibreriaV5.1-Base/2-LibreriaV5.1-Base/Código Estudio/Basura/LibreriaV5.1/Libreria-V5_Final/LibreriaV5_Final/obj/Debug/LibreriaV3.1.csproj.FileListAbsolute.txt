@@ -1,0 +1,42 @@
+C:\Users\JAVI\Estudios\Ciclo_DAM\WorkSpaceVS\LibreriaV5\LibreriaV3.1\bin\Debug\LibreriaV3.1.exe.config
+C:\Users\JAVI\Estudios\Ciclo_DAM\WorkSpaceVS\LibreriaV5\LibreriaV3.1\bin\Debug\LibreriaV3.1.exe
+C:\Users\JAVI\Estudios\Ciclo_DAM\WorkSpaceVS\LibreriaV5\LibreriaV3.1\bin\Debug\LibreriaV3.1.pdb
+C:\Users\JAVI\Estudios\Ciclo_DAM\WorkSpaceVS\LibreriaV5\LibreriaV3.1\bin\Debug\MySql.Data.dll
+C:\Users\JAVI\Estudios\Ciclo_DAM\WorkSpaceVS\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3.1.csprojResolveAssemblyReference.cache
+C:\Users\JAVI\Estudios\Ciclo_DAM\WorkSpaceVS\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.ConsultarFacturas.resources
+C:\Users\JAVI\Estudios\Ciclo_DAM\WorkSpaceVS\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.InsertarFacturas.resources
+C:\Users\JAVI\Estudios\Ciclo_DAM\WorkSpaceVS\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Libro.resources
+C:\Users\JAVI\Estudios\Ciclo_DAM\WorkSpaceVS\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Properties.Resources.resources
+C:\Users\JAVI\Estudios\Ciclo_DAM\WorkSpaceVS\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.Principal.resources
+C:\Users\JAVI\Estudios\Ciclo_DAM\WorkSpaceVS\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3.1.csproj.GenerateResource.Cache
+C:\Users\JAVI\Estudios\Ciclo_DAM\WorkSpaceVS\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3.1.exe
+C:\Users\JAVI\Estudios\Ciclo_DAM\WorkSpaceVS\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3.1.pdb
+C:\Users\JAVI\Estudios\Ciclo_DAM\WorkSpaceVS\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.Clientes.resources
+D:\NET\PROYECTOS\Documentacion .NET\Proyectos\03-Nuestra aplicacion escritorio\LibreriaV5\LibreriaV3.1\bin\Debug\LibreriaV3.1.exe.config
+D:\NET\PROYECTOS\Documentacion .NET\Proyectos\03-Nuestra aplicacion escritorio\LibreriaV5\LibreriaV3.1\bin\Debug\LibreriaV3.1.exe
+D:\NET\PROYECTOS\Documentacion .NET\Proyectos\03-Nuestra aplicacion escritorio\LibreriaV5\LibreriaV3.1\bin\Debug\LibreriaV3.1.pdb
+D:\NET\PROYECTOS\Documentacion .NET\Proyectos\03-Nuestra aplicacion escritorio\LibreriaV5\LibreriaV3.1\bin\Debug\MySql.Data.dll
+D:\NET\PROYECTOS\Documentacion .NET\Proyectos\03-Nuestra aplicacion escritorio\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3.1.csprojResolveAssemblyReference.cache
+D:\NET\PROYECTOS\Documentacion .NET\Proyectos\03-Nuestra aplicacion escritorio\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.Clientes.resources
+D:\NET\PROYECTOS\Documentacion .NET\Proyectos\03-Nuestra aplicacion escritorio\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.ConsultarFacturas.resources
+D:\NET\PROYECTOS\Documentacion .NET\Proyectos\03-Nuestra aplicacion escritorio\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.InsertarFacturas.resources
+D:\NET\PROYECTOS\Documentacion .NET\Proyectos\03-Nuestra aplicacion escritorio\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Libro.resources
+D:\NET\PROYECTOS\Documentacion .NET\Proyectos\03-Nuestra aplicacion escritorio\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Properties.Resources.resources
+D:\NET\PROYECTOS\Documentacion .NET\Proyectos\03-Nuestra aplicacion escritorio\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.Principal.resources
+D:\NET\PROYECTOS\Documentacion .NET\Proyectos\03-Nuestra aplicacion escritorio\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3.1.csproj.GenerateResource.Cache
+D:\NET\PROYECTOS\Documentacion .NET\Proyectos\03-Nuestra aplicacion escritorio\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3.1.exe
+D:\NET\PROYECTOS\Documentacion .NET\Proyectos\03-Nuestra aplicacion escritorio\LibreriaV5\LibreriaV3.1\obj\Debug\LibreriaV3.1.pdb
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3.1.csprojResolveAssemblyReference.cache
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.Clientes.resources
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.ConsultarFacturas.resources
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.InsertarFacturas.resources
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3._1.Libro.resources
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3._1.Properties.Resources.resources
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3._1.Vista.Principal.resources
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3.1.csproj.GenerateResource.Cache
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3.1.exe
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV5 Limpia\LibreriaV3.1\obj\Debug\LibreriaV3.1.pdb
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV5 Limpia\LibreriaV3.1\bin\Debug\LibreriaV3.1.exe.config
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV5 Limpia\LibreriaV3.1\bin\Debug\LibreriaV3.1.exe
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV5 Limpia\LibreriaV3.1\bin\Debug\LibreriaV3.1.pdb
+C:\Users\JoseMa\Desktop\LibreriaDesktop\LibreriaV5 Limpia\LibreriaV3.1\bin\Debug\MySql.Data.dll
