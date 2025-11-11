@@ -1,9 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dam2\\Downloads\\LibreriaV5-20251111\\1-LibreriaV5.1-Inicio\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\",
+  "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|c:\\users\\dam2\\downloads\\libreriav5-20251111\\1-libreriav5.1-inicio\\1-libreriav5.1-inicio\\libreria-v5_final\\libreriav5_final\\persistencia\\accesobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\1-libreriav5.1-iniciomodificar\\1-libreriav5.1-inicio\\libreria-v5_final\\libreriav5_final\\vista\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\vista\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\1-libreriav5.1-iniciomodificar\\1-libreriav5.1-inicio\\libreria-v5_final\\libreriav5_final\\vista\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\vista\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\1-libreriav5.1-iniciomodificar\\1-libreriav5.1-inicio\\libreria-v5_final\\libreriav5_final\\negocio\\tfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\negocio\\tfactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\1-libreriav5.1-iniciomodificar\\1-libreriav5.1-inicio\\libreria-v5_final\\libreriav5_final\\negocio\\tcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\negocio\\tcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\1-libreriav5.1-iniciomodificar\\1-libreriav5.1-inicio\\libreria-v5_final\\libreriav5_final\\vista\\frmlibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\vista\\frmlibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\1-libreriav5.1-iniciomodificar\\1-libreriav5.1-inicio\\libreria-v5_final\\libreriav5_final\\vista\\frmlibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\vista\\frmlibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\1-libreriav5.1-iniciomodificar\\1-libreriav5.1-inicio\\libreria-v5_final\\libreriav5_final\\persistencia\\accesobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\persistencia\\accesobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -17,16 +41,94 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmLibro.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmLibro.cs",
+              "RelativeDocumentMoniker": "LibreriaV5_Final\\Vista\\FrmLibro.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmLibro.cs",
+              "RelativeToolTip": "LibreriaV5_Final\\Vista\\FrmLibro.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAWwKsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T12:59:34.793Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmCliente.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmCliente.cs",
+              "RelativeDocumentMoniker": "LibreriaV5_Final\\Vista\\FrmCliente.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmCliente.cs",
+              "RelativeToolTip": "LibreriaV5_Final\\Vista\\FrmCliente.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAewIEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T12:59:16.038Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TFactura.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Negocio\\TFactura.cs",
+              "RelativeDocumentMoniker": "LibreriaV5_Final\\Negocio\\TFactura.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Negocio\\TFactura.cs",
+              "RelativeToolTip": "LibreriaV5_Final\\Negocio\\TFactura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:11:37.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmCliente.cs",
+              "RelativeDocumentMoniker": "LibreriaV5_Final\\Vista\\FrmCliente.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "LibreriaV5_Final\\Vista\\FrmCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T12:39:18.978Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TCliente.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Negocio\\TCliente.cs",
+              "RelativeDocumentMoniker": "LibreriaV5_Final\\Negocio\\TCliente.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Negocio\\TCliente.cs",
+              "RelativeToolTip": "LibreriaV5_Final\\Negocio\\TCliente.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T12:43:13.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmLibro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmLibro.cs",
+              "RelativeDocumentMoniker": "LibreriaV5_Final\\Vista\\FrmLibro.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmLibro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "LibreriaV5_Final\\Vista\\FrmLibro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T12:39:56.182Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "AccesoBD.cs",
-              "DocumentMoniker": "C:\\Users\\dam2\\Downloads\\LibreriaV5-20251111\\1-LibreriaV5.1-Inicio\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Persistencia\\AccesoBD.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Persistencia\\AccesoBD.cs",
               "RelativeDocumentMoniker": "LibreriaV5_Final\\Persistencia\\AccesoBD.cs",
-              "ToolTip": "C:\\Users\\dam2\\Downloads\\LibreriaV5-20251111\\1-LibreriaV5.1-Inicio\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Persistencia\\AccesoBD.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Persistencia\\AccesoBD.cs",
               "RelativeToolTip": "LibreriaV5_Final\\Persistencia\\AccesoBD.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAcwFsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
