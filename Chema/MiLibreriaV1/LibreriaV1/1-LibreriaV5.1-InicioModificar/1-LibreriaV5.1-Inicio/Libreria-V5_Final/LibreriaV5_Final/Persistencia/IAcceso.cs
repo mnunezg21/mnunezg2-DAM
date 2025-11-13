@@ -8,9 +8,9 @@ namespace LibreriaV5_Final.Persistencia
        bool Insertar(obj objeto) ;
        bool Borrar(Object objeto);
        bool BorradoVirtual(Object objeto);
-       Object Buscar(Type clase, String nombre);
+       Object BuscarOne(Type clase, String nombre);
        List<object> Buscar(Type clase, string campo, string busqueda);
-       List<object> Obtener(Type clase);
+       List<object> BuscarAll(Type clase);
        bool Modificar(obj objeto);
     }
 

@@ -87,21 +87,18 @@ namespace LibreriaV5_Final.Comun
         {
             bool existe = false;
             // Si el arhcivo no existe en esa ruta
-            if (!File.Exists(ruta))
+            try
             {
-                try
-                {
-                    // Lo crea y lo cierra inmediatamente
-                    File.Create(ruta).Close();
-                    existe = true;
-                }
-                catch
-                {
-                    // Se deja esta línea para ver cómo se gestionarían los distintos
-                    // errores en una clase Errores.
-                    //Errores.controlError(new Errores(Errores.ERROR_FICHERO));
-                    throw;
-                }
+                // Lo crea y lo cierra inmediatamente
+                if (!File.Exists(ruta)) File.Create(ruta).Close();
+                existe = true;
+            }
+            catch
+            {
+                // Se deja esta línea para ver cómo se gestionarían los distintos
+                // errores en una clase Errores.
+                //Errores.controlError(new Errores(Errores.ERROR_FICHERO));
+                throw;
             }
             return existe;
         }

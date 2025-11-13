@@ -60,7 +60,7 @@ namespace LibreriaV5_Final.Vista
             try
             {
                 cmbFactura.Items.Clear();
-                foreach (TFactura factura in control.Obtener(new TFactura().GetType()))
+                foreach (TFactura factura in control.BuscarAll(new TFactura().GetType()))
                 {
                     if (factura.Borrado.Equals("0"))
                         cmbFactura.Items.Add(factura);

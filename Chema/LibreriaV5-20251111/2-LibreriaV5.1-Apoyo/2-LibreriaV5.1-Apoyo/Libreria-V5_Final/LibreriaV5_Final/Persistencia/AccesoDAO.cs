@@ -182,7 +182,7 @@ namespace LibreriaV5_Final.Persistencia
             {
                 try
                 {
-                    if (EjecutarUpdate(UtilFichero.GuardarSQL("UPDATE" + objeto.GetType().Name, UtilSQL.SqlModificar(objeto)), objeto))
+                    if (sql = UtilFichero.GuardarSQL("UPDATE" + objeto.GetType().Name, UtilSQL.SqlModificar(objeto)), objeto)
                     {
                         modificado = true;
                     }

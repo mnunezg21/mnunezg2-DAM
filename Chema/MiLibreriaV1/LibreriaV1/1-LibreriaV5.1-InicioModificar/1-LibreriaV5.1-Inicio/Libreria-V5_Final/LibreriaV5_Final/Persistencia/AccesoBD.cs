@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Reflection;
 
 namespace LibreriaV5_Final.Persistencia
@@ -16,7 +17,7 @@ namespace LibreriaV5_Final.Persistencia
         {
             try
             {
-                connection = ConexionJDBC.AbrirConexion();
+                connection = ConexionBD.AbrirConexion();
             }
             catch (Exception e)
             {
@@ -30,7 +31,7 @@ namespace LibreriaV5_Final.Persistencia
         {
             try
             {
-                comando = new MySqlCommand(sql, connection); 
+                comando = new MySqlCommand(sql, connection);
                 PropertyInfo[] propertyInfo = objeto.GetType().GetProperties(); // Obtiene las propiedades del objeto
                 int index = 1;// Indice para los parametros SQL
 
@@ -75,7 +76,7 @@ namespace LibreriaV5_Final.Persistencia
                     comando.Parameters.AddWithValue("@a1", nombre);
                 }
                 sqlDataReader = comando.ExecuteReader(); // Ejecuta la consulta, devuelve un el resultado y lo lee con el DataReader
-                if (sqlDataReader != null) 
+                if (sqlDataReader != null)
                 {
                     objetos = new List<object>();// Inicializa la lista de objetos a devolver
                     List<string> list = UtilSQL.ObtenerNombrePropiedades(clase); // Obtiene los nombres de las propiedades de la clase
@@ -154,4 +155,39 @@ namespace LibreriaV5_Final.Persistencia
             }
         }
     }
+
+    public class ConexionBD 
+    {
+
+        private static MySqlConnection connection;
+
+        public static MySqlConnection AbrirConexion()
+        {
+            if (connection == null)
+            {
+                try
+                {
+                    connection = new MySqlConnection();
+                    connection.ConnectionString =
+                        "Server=" + ConfigurationManager.AppSettings["servidor"].ToString()
+                        + ";Database=" + ConfigurationManager.AppSettings["baseDatos"].ToString()
+                        + ";Uid=" + ConfigurationManager.AppSettings["usuario"].ToString()
+                        + ";Pwd=" + ConfigurationManager.AppSettings["password"].ToString() + ";";
+                    connection.Open();
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
+            return connection;
+        }
+
+        public static void CerrarConexion()
+        {
+            if(connection!=null) connection.Close();
+            
+        }
+    }
+        
 }

@@ -110,7 +110,7 @@ namespace LibreriaV5_Final.Vista
         {
             try
             {
-                foreach (TCliente cliente in control.Obtener(new TCliente().GetType()))
+                foreach (TCliente cliente in control.BuscarAll(new TCliente().GetType()))
                 {
                     if (cliente.Borrado.Equals("0"))
                     {
@@ -118,7 +118,7 @@ namespace LibreriaV5_Final.Vista
                     }
                 }
 
-                foreach (TLibro libro in control.Obtener(new TLibro().GetType()))
+                foreach (TLibro libro in control.BuscarAll(new TLibro().GetType()))
                 {
                     if (libro.Borrado.Equals("0"))
                     {

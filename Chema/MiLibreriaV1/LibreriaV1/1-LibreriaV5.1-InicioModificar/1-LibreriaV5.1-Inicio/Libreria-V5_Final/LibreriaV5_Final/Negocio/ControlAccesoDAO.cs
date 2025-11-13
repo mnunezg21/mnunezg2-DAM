@@ -27,11 +27,11 @@ namespace LibreriaV5_Final.Negocio
             catch (Exception) { throw; }
         }
 
-        public object Buscar(Type clase, string nombre)
+        public object BuscarOne(Type clase, string nombre)
         {
             try
             {
-                return ((IAcceso<T>)accesoDAO).Buscar(clase, nombre);
+                return ((IAcceso<T>)accesoDAO).BuscarOne(clase, nombre);
             }
             catch (Exception) { throw; }
         }
@@ -63,11 +63,11 @@ namespace LibreriaV5_Final.Negocio
             catch (Exception) { throw; }
         }
 
-        public List<object> Obtener(Type clase)
+        public List<object> BuscarAll(Type clase)
         {
             try
             {
-                return ((IAcceso<T>)accesoDAO).Obtener(clase);
+                return ((IAcceso<T>)accesoDAO).BuscarAll(clase);
             }
             catch (Exception) { throw; }
         }

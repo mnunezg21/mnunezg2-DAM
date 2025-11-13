@@ -87,7 +87,6 @@
     </Compile>
     <Compile Include="Negocio\TLibro.cs" />
     <Compile Include="Persistencia\AccesoBD.cs" />
-    <Compile Include="Persistencia\ConexionJDBC.cs" />
     <Compile Include="Persistencia\IAcceso.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

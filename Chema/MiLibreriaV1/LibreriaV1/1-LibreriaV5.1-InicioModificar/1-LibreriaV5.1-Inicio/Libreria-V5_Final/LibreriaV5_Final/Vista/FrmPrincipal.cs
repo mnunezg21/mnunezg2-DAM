@@ -46,7 +46,7 @@ namespace LibreriaV5_Final.Vista
         {
             try { 
             UtilFichero.EscribirDictionarySentenciasFichero();
-            ConexionJDBC.CerrarConexion();
+            ConexionBD.CerrarConexion();
             }
             catch (Exception ex)
             {

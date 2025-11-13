@@ -35,7 +35,7 @@ namespace LibreriaV5_Final
                 }
                 else
                 {
-                    if (control.Buscar(libro.GetType(), libro.CodLibro) != null)
+                    if (control.BuscarOne(libro.GetType(), libro.CodLibro) != null)
                     {
                         txtMensaje.Text = Mensajes.MSG_YAEXISTE_LIBRO;
                     }
@@ -203,7 +203,7 @@ namespace LibreriaV5_Final
             try
             {
                 List<object> libros = new List<object>();
-                foreach (TLibro item in control.Obtener(new TLibro().GetType()))
+                foreach (TLibro item in control.BuscarAll(new TLibro().GetType()))
                 {
                     if (item.Borrado.Equals("0"))
                     {
@@ -223,7 +223,7 @@ namespace LibreriaV5_Final
         {
             try
             {
-                foreach (TTema item in control.Obtener(new TTema().GetType()))
+                foreach (TTema item in control.BuscarAll(new TTema().GetType()))
                 {
                     cbxTemas.Items.Add(item.Tema);
                 }

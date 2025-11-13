@@ -38,7 +38,7 @@ namespace LibreriaV5_Final.Vista
                 }
                 else
                 {
-                    if (control.Buscar(cliente.GetType(), cliente.CodCliente) != null)
+                    if (control.BuscarOne(cliente.GetType(), cliente.CodCliente) != null)
                     {
                         textMensaje.Text = Mensajes.MSG_YAEXISTE_CLIENTE;
                     }
@@ -164,7 +164,7 @@ namespace LibreriaV5_Final.Vista
             try
             {
                 List<object> clientes = new List<object>();
-                foreach (TCliente item in control.Obtener(new TCliente().GetType()))
+                foreach (TCliente item in control.BuscarAll(new TCliente().GetType()))
                 {
                     if (item.Borrado.Equals("0"))
                     {

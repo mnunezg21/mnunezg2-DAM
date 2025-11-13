@@ -112,10 +112,15 @@ namespace LibreriaV5_Final.Persistencia
             return codigoGenerado;
         }
 
+        public static PropertyInfo[] ObtenerPropiedades(Type clase)
+        {
+            return clase.GetProperties();
+        }
+
         //
         //********** MÉTODOS PRIVADOS DE LA CLASE UtilSQL*************************
         //
-        
+
         private static void RellenarSql(List<string> list)
         {
             StringBuilder cadena = new StringBuilder(" ) VALUES ( ");

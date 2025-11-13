@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mnune\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\",
+  "WorkspaceRootPath": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|c:\\users\\mnune\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\1-libreriav5.1-iniciomodificar\\1-libreriav5.1-inicio\\libreria-v5_final\\libreriav5_final\\vista\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\vista\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\1-libreriav5.1-iniciomodificar\\1-libreriav5.1-inicio\\libreria-v5_final\\libreriav5_final\\persistencia\\accesodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\persistencia\\accesodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|C:\\Users\\mnune\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\libreriav5_final\\vista\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\vista\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\1-libreriav5.1-iniciomodificar\\1-libreriav5.1-inicio\\libreria-v5_final\\libreriav5_final\\persistencia\\iacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\persistencia\\iacceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|c:\\users\\mnune\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\1-libreriav5.1-iniciomodificar\\1-libreriav5.1-inicio\\libreria-v5_final\\libreriav5_final\\vista\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\1-libreriav5.1-iniciomodificar\\1-libreriav5.1-inicio\\libreria-v5_final\\libreriav5_final\\persistencia\\utilsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\persistencia\\utilsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\1-libreriav5.1-iniciomodificar\\1-libreriav5.1-inicio\\libreria-v5_final\\libreriav5_final\\persistencia\\accesobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\persistencia\\accesobd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|c:\\users\\dam2\\documents\\github\\mnunezg2-dam\\chema\\milibreriav1\\libreriav1\\1-libreriav5.1-iniciomodificar\\1-libreriav5.1-inicio\\libreria-v5_final\\libreriav5_final\\persistencia\\utilfichero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\persistencia\\utilfichero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\libreriav5_final\\vista\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\vista\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|C:\\Users\\mnune\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\libreriav5_final\\negocio\\tcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\negocio\\tcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|C:\\Users\\mnune\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\libreriav5_final\\vista\\frmlibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01C38D00-3D51-442C-ACDF-5B1E719A60D3}|LibreriaV5_Final\\LibreriaV5_Final.csproj|solutionrelative:libreriav5_final\\vista\\frmlibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,77 +34,90 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmLibro.cs",
-              "DocumentMoniker": "C:\\Users\\mnune\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmLibro.cs",
-              "RelativeDocumentMoniker": "LibreriaV5_Final\\Vista\\FrmLibro.cs",
-              "ToolTip": "C:\\Users\\mnune\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmLibro.cs",
-              "RelativeToolTip": "LibreriaV5_Final\\Vista\\FrmLibro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T12:59:34.793Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "FrmCliente.cs",
-              "DocumentMoniker": "C:\\Users\\mnune\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmCliente.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmCliente.cs",
               "RelativeDocumentMoniker": "LibreriaV5_Final\\Vista\\FrmCliente.cs",
-              "ToolTip": "C:\\Users\\mnune\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmCliente.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmCliente.cs",
               "RelativeToolTip": "LibreriaV5_Final\\Vista\\FrmCliente.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAUwJEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAowAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T12:59:16.038Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAcceso.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Persistencia\\IAcceso.cs",
+              "RelativeDocumentMoniker": "LibreriaV5_Final\\Persistencia\\IAcceso.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Persistencia\\IAcceso.cs",
+              "RelativeToolTip": "LibreriaV5_Final\\Persistencia\\IAcceso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T12:35:03.761Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\mnune\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmPrincipal.cs",
-              "RelativeDocumentMoniker": "LibreriaV5_Final\\Vista\\FrmPrincipal.cs",
-              "ToolTip": "C:\\Users\\mnune\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmPrincipal.cs",
-              "RelativeToolTip": "LibreriaV5_Final\\Vista\\FrmPrincipal.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAUwCcAAAAVAAAAAAAAAA==",
+              "Title": "AccesoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Persistencia\\AccesoDAO.cs",
+              "RelativeDocumentMoniker": "LibreriaV5_Final\\Persistencia\\AccesoDAO.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Persistencia\\AccesoDAO.cs",
+              "RelativeToolTip": "LibreriaV5_Final\\Persistencia\\AccesoDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T18:02:05.889Z",
+              "WhenOpened": "2025-11-13T12:08:25.192Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\mnune\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmCliente.cs",
-              "RelativeDocumentMoniker": "LibreriaV5_Final\\Vista\\FrmCliente.cs",
-              "ToolTip": "C:\\Users\\mnune\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Vista\\FrmCliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "LibreriaV5_Final\\Vista\\FrmCliente.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T12:39:18.978Z",
-              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TCliente.cs",
-              "DocumentMoniker": "C:\\Users\\mnune\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Negocio\\TCliente.cs",
-              "RelativeDocumentMoniker": "LibreriaV5_Final\\Negocio\\TCliente.cs",
-              "ToolTip": "C:\\Users\\mnune\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Negocio\\TCliente.cs",
-              "RelativeToolTip": "LibreriaV5_Final\\Negocio\\TCliente.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBUAAAAaAAAAAAAAAA==",
+              "Title": "AccesoBD.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Persistencia\\AccesoBD.cs",
+              "RelativeDocumentMoniker": "LibreriaV5_Final\\Persistencia\\AccesoBD.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Persistencia\\AccesoBD.cs",
+              "RelativeToolTip": "LibreriaV5_Final\\Persistencia\\AccesoBD.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAcwLgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T12:43:13.302Z",
+              "WhenOpened": "2025-11-13T11:53:42.13Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UtilFichero.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Persistencia\\UtilFichero.cs",
+              "RelativeDocumentMoniker": "LibreriaV5_Final\\Persistencia\\UtilFichero.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Persistencia\\UtilFichero.cs",
+              "RelativeToolTip": "LibreriaV5_Final\\Persistencia\\UtilFichero.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAowF0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T11:37:43.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UtilSQL.cs",
+              "DocumentMoniker": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Persistencia\\UtilSQL.cs",
+              "RelativeDocumentMoniker": "LibreriaV5_Final\\Persistencia\\UtilSQL.cs",
+              "ToolTip": "C:\\Users\\dam2\\Documents\\GitHub\\mnunezg2-DAM\\Chema\\MiLibreriaV1\\LibreriaV1\\1-LibreriaV5.1-InicioModificar\\1-LibreriaV5.1-Inicio\\Libreria-V5_Final\\LibreriaV5_Final\\Persistencia\\UtilSQL.cs",
+              "RelativeToolTip": "LibreriaV5_Final\\Persistencia\\UtilSQL.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T11:38:57.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
