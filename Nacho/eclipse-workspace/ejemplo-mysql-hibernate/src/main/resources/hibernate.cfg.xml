@@ -6,7 +6,7 @@
 	<session-factory>
 		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 		<!-- <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/dam_ventas_pratica</property>-->
-		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/dam_ventas_pratica?useSSL=false&amp;serverTimezone=UTC</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/dam_almacen_practica?useSSL=false&amp;serverTimezone=UTC</property>
 		<property name="hibernate.connection.username">root</property>
 		<property name="hibernate.connection.password">root</property>
 		
@@ -17,5 +17,6 @@
 		
 		<mapping class="modelo.Cliente"/>
 		<mapping class="modelo.Pedido"/>
+
 	</session-factory>
 </hibernate-configuration>

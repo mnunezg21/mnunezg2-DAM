@@ -30,7 +30,7 @@ public class Main {
 		//READ
 		System.out.println("----- 1. READ ORM -----");
 		REPO.obtenerPedidosPorCliente(1).forEach(p->
-			System.out.println("ID pedido: "+p.getIdPedido()+", Total: "+ p.getTotal()+", Estado: "+p.getEstado())
+			System.out.println(p.toString())
 				);
 		
 		//UPDATE

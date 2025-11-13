@@ -2,7 +2,8 @@ package modelo;
 
 import java.time.LocalDate;
 import jakarta.persistence.*;
-
+@Entity
+@Table(name="pedido")
 public class Pedido {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,8 +23,6 @@ public class Pedido {
 	@Enumerated(EnumType.STRING)
 	@Column(name = "estado")
 	private EstadoPedido estado;
-	
-	
 	
 	public Pedido() {
 	}
