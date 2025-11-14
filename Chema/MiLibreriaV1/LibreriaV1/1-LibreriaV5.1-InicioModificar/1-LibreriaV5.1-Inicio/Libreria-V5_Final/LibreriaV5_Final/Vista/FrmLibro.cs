@@ -37,13 +37,13 @@ namespace LibreriaV5_Final
                 {
                     if (control.BuscarOne(libro.GetType(), libro.CodLibro) != null)
                     {
-                        txtMensaje.Text = Mensajes.MSG_YAEXISTE_LIBRO;
+                        MessageBox.Show(Mensajes.MSG_YAEXISTE_LIBRO);
                     }
                     else
                     {
                         control.Insertar(libro);
                         lstLibros.Items.Add(libro);
-                        txtMensaje.Text = Mensajes.MSG_INSERTADO_LIBRO;
+                        MessageBox.Show(Mensajes.MSG_INSERTADO_LIBRO);
                     }
                 }
                 lstLibros.ClearSelected();
@@ -67,7 +67,7 @@ namespace LibreriaV5_Final
                     {
                         if (control.BorradoVirtual(lstLibros.SelectedItem))
                         {
-                            txtMensaje.Text = Mensajes.MSG_BORRADO_VIRTUAL;
+                            MessageBox.Show(Mensajes.MSG_BORRADO_VIRTUAL);
                             lstLibros.Items.Remove(lstLibros.SelectedItem);
                         }
                     }
@@ -75,7 +75,7 @@ namespace LibreriaV5_Final
                     {
                         if (control.Borrar(lstLibros.SelectedItem))
                         {
-                            txtMensaje.Text = Mensajes.MSG_BORRADO_LIBRO;
+                            MessageBox.Show(Mensajes.MSG_BORRADO_LIBRO);
                             lstLibros.Items.Remove(lstLibros.SelectedItem);
                         }
                     }
@@ -103,7 +103,7 @@ namespace LibreriaV5_Final
                     {
                         lstLibros.Items.Remove(lstLibros.SelectedItem);
                         lstLibros.Items.Add(libro);
-                        txtMensaje.Text = Mensajes.MSG_MODIFICADO_LIBRO;
+                        MessageBox.Show(Mensajes.MSG_MODIFICADO_LIBRO);
                         VaciarPantalla();
                     }
                 }

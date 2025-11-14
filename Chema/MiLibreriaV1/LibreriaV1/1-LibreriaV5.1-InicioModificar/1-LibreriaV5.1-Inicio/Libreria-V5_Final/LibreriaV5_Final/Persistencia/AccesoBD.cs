@@ -73,7 +73,7 @@ namespace LibreriaV5_Final.Persistencia
                 //Si el nombre no es vacio, añade el parametro al comando SQL
                 if (!nombre.Equals(""))
                 {
-                    comando.Parameters.AddWithValue("@a1", nombre);
+                    comando.Parameters. ("@a1", nombre);
                 }
                 sqlDataReader = comando.ExecuteReader(); // Ejecuta la consulta, devuelve un el resultado y lo lee con el DataReader
                 if (sqlDataReader != null)
@@ -135,7 +135,7 @@ namespace LibreriaV5_Final.Persistencia
             connection.Close();
         }
 
-        // Obtiene el codigo maximo de una tabla
+        // Obtiene el ultimo codigo de una tabla
         public string ObtenerCodigo(Type clase)
         {
             //Construye la sentencia SQL, para obtener el codigo maximo de la tabla

@@ -63,9 +63,5 @@ namespace LibreriaV5_Final.Modelo
         {
             return CodLibro+": " +Titulo.ToUpper();
         }
-
     }
-
-    
-
 }

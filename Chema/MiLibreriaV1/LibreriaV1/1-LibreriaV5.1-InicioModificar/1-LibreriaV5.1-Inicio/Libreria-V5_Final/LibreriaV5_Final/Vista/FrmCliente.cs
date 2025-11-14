@@ -40,13 +40,13 @@ namespace LibreriaV5_Final.Vista
                 {
                     if (control.BuscarOne(cliente.GetType(), cliente.CodCliente) != null)
                     {
-                        textMensaje.Text = Mensajes.MSG_YAEXISTE_CLIENTE;
+                        MessageBox.Show(Mensajes.MSG_YAEXISTE_CLIENTE);
                     }
                     else
                     {
                         control.Insertar(cliente);
                         listClientes.Items.Add(cliente);
-                        textMensaje.Text = Mensajes.MSG_INSERTADO_CLIENTE;
+                        MessageBox.Show(Mensajes.MSG_INSERTADO_CLIENTE);
                     }
                 }
                 listClientes.ClearSelected();
@@ -70,7 +70,7 @@ namespace LibreriaV5_Final.Vista
                     {
                         if (control.BorradoVirtual(listClientes.SelectedItem))
                         {
-                            textMensaje.Text = Mensajes.MSG_BORRADO_VIRTUAL;
+                            MessageBox.Show(Mensajes.MSG_BORRADO_VIRTUAL);
                             listClientes.Items.Remove(listClientes.SelectedItem);
                         }
                     }
@@ -78,7 +78,7 @@ namespace LibreriaV5_Final.Vista
                     {
                         if (control.Borrar(listClientes.SelectedItem))
                         {
-                            textMensaje.Text = Mensajes.MSG_BORRADO_CLIENTE;
+                            MessageBox.Show(Mensajes.MSG_BORRADO_CLIENTE);
                             listClientes.Items.Remove(listClientes.SelectedItem);
                         }
                     }
@@ -106,7 +106,7 @@ namespace LibreriaV5_Final.Vista
                     {
                         listClientes.Items.Remove(listClientes.SelectedItem);
                         listClientes.Items.Add(cliente);
-                        textMensaje.Text = Mensajes.MSG_MODIFICADO_CLIENTE;
+                        MessageBox.Show(Mensajes.MSG_MODIFICADO_CLIENTE);
                         VaciarPantalla();
                     }
                 }
