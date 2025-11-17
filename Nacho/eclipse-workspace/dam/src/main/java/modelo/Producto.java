@@ -54,7 +54,7 @@ public class Producto {
 		this.stock = stock;
 		this.precio = precio;
 		this.ubicacion = ubicacion;
-		this.proveedores = proveedores;
+		this.proveedores = null;
 	}
 
 
@@ -65,7 +65,7 @@ public class Producto {
 		this.stock = stock;
 		this.precio = precio;
 		this.ubicacion = ubicacion;
-		this.proveedores = proveedores;
+		this.proveedores = null;
 	}
 
 

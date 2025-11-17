@@ -34,18 +34,18 @@ public class Ubicacion {
 	public Ubicacion() {
 	}
 
-	public Ubicacion(int idUbicacion, String pasillo, int estanteria, LocalDate fechaAdquisicion, Producto producto) {
+	public Ubicacion(int idUbicacion, String pasillo, int estanteria,Producto producto) {
 		this.idUbicacion = idUbicacion;
 		this.pasillo = pasillo;
 		this.estanteria = estanteria;
-		this.fechaAdquisicion = fechaAdquisicion;
+		this.fechaAdquisicion = LocalDate.now();
 		this.producto = producto;
 	}
 
-	public Ubicacion(String pasillo, int estanteria, LocalDate fechaAdquisicion, Producto producto) {
+	public Ubicacion(String pasillo, int estanteria, Producto producto) {
 		this.pasillo = pasillo;
 		this.estanteria = estanteria;
-		this.fechaAdquisicion = fechaAdquisicion;
+		this.fechaAdquisicion = LocalDate.now();
 		this.producto = producto;
 	}
 

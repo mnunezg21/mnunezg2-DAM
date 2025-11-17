@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
-    <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
-    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
-    <fullyQualifiedTypeName name="java.nio.file.Files"/>
-    <fullyQualifiedTypeName name="java.nio.file.StandardOpenOption"/>
     <fullyQualifiedTypeName name="javax.xml.transform.TransformerFactory"/>
     <fullyQualifiedTypeName name="javax.xml.parsers.SAXParserFactory"/>
     <fullyQualifiedTypeName name="java.nio.file.Path"/>
@@ -43,21 +38,26 @@
     <fullyQualifiedTypeName name="modelo.Pedido"/>
     <fullyQualifiedTypeName name="repository.VentasRepository"/>
     <fullyQualifiedTypeName name="modelo.EstadoPedido"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.AnyDiscriminator"/>
-    <fullyQualifiedTypeName name="modelo.Ubicacion"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
     <fullyQualifiedTypeName name="org.hibernate.boot.jaxb.hbm.spi.JaxbHbmBagCollectionType"/>
-    <fullyQualifiedTypeName name="modelo.Producto"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="ejercicios_14_11.ejercicio1.HiloNumerosLetras"/>
     <fullyQualifiedTypeName name="java.lang.classfile.attribute.RuntimeInvisibleAnnotationsAttribute"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="ejercicios_14_11.ejercicio5.HiloMedia"/>
+    <fullyQualifiedTypeName name="repository.CRUD"/>
+    <fullyQualifiedTypeName name="modelo.Ubicacion"/>
+    <fullyQualifiedTypeName name="java.time.Period"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="org.hibernate.boot.model.source.spi.FetchCharacteristics"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="modelo.Proveedor"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="modelo.Producto"/>
 </qualifiedTypeNameHistroy>
