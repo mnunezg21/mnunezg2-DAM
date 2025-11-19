@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lista_almacenes>
+    <almacen>
+        <codigo>B01</codigo>
+        <nombre>Almacén Levante</nombre>
+        <ciudad>Valencia</ciudad>
+        <capacidad>8000</capacidad>
+    </almacen>
+    <almacen>
+        <codigo>B02</codigo>
+        <nombre>Plataforma Oeste</nombre>
+        <ciudad>Badajoz</ciudad>
+        <capacidad>3500</capacidad>
+    </almacen>
+</lista_almacenes>

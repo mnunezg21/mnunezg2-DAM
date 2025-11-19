@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <producto>
+        <nombre>Teclado Mecánico</nombre>
+        <precio>89.95</precio>
+        <stock>50</stock>
+    </producto>
+    <producto>
+        <nombre>Ratón Óptico</nombre>
+        <precio>25.50</precio>
+        <stock>120</stock>
+    </producto>
+    <producto>
+        <nombre>Alfombrilla XL</nombre>
+        <precio>19.99</precio>
+        <stock>200</stock>
+    </producto>
+</catalogo>

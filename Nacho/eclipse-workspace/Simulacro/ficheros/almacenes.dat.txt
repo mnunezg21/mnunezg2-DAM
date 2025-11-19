@@ -1,0 +1,3 @@
+A01;Almacén Central;Madrid;10000
+A02;Logística Sur;Sevilla;5000
+A03;Distribución Norte;Bilbao;7500
