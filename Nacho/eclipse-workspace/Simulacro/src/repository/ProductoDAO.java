@@ -17,6 +17,8 @@ public interface ProductoDAO {
 	 
 	 boolean importarAlmacenes(List<Almacen> almacenes);
 	 
+	 List<Producto> exportarProductosConPrecioElevado();
+	 
 	 Producto obetenerPorId(int idProducto);
 	 
 	 List<Producto> obtenerTodosLosProductos();

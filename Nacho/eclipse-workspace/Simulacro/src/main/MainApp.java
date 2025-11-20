@@ -9,6 +9,7 @@ import java.util.Scanner;
 import modelo.Producto;
 import modelo.Almacen;
 import repository.GestionFicheros;
+import repository.GestionFicherosXML;
 import repository.ProductoDAOImpl;
 
 public class MainApp {
@@ -18,16 +19,19 @@ public class MainApp {
 	private static File directorioTienda = new File("C:\\tienda");
 	private static File ficheroStockBajo = new File("C:\\tienda\\stock_bajo.txt");
 	private static File ficheroAlmacenes = new File("ficheros\\almacenes.dat.txt");
+	private static File ficheroAlmacenesNuevos = new File("ficheros\\almacenes_nuevos.xml");
+	private static File ficheroProductosPrecioElevado = new File("ficheros\\productos_precio_elevado.xml");
+	private static File ficheroProductosNuevos = new File("ficheros\\nuevos_productos.xml");
 
 	
 	public static void main(String[] args) {		
 		int opcion=0;
 		
-		
-		
 		try {
 			if(directorioTienda.mkdir()) System.out.println("Directorio creado perfectamente");
-			if(ficheroStockBajo.createNewFile()) System.out.println("Directorio creado perfectamente");
+			if(ficheroStockBajo.createNewFile()) System.out.println("Fichero creado perfectamente");
+			if(ficheroProductosPrecioElevado.createNewFile()) System.out.println("Fichero creado perfectamente");
+
 		} catch (IOException e) {
 			System.err.println("Error al generar el fichero y el directorio: "+e.getMessage());
 		}
@@ -49,6 +53,15 @@ public class MainApp {
 				break;
 			case 5:
 				importarAlmacenesDesdeFichero();
+				break;
+			case 6:
+				importarAlmacenesDesdeFicheroXML();;
+				break;
+			case 7:
+				exportarProductosSuperiores();
+				break;
+			case 8:
+				importarProductosNuevos();
 				break;
 			case 0:
 				System.out.println("Saliendo...");
@@ -120,20 +133,51 @@ public class MainApp {
 	private static void importarAlmacenesDesdeFichero() {
 		List<Almacen> almacenes =  new ArrayList<Almacen>();
 		
-		GestionFicheros.leerAlmacenes(ficheroAlmacenes);
+		almacenes=GestionFicheros.leerAlmacenes(ficheroAlmacenes);
 		
 		
 		if (dao.importarAlmacenes(almacenes)) System.out.println("Almacenes insertados correctamente");
 		else System.out.println("Error al insertar los almacenes");
 	}
+	
+	private static void importarAlmacenesDesdeFicheroXML() {
+		List<Almacen> almacenes = new ArrayList<Almacen>();
+		almacenes= GestionFicherosXML.importarAlmacenesDOM(ficheroAlmacenesNuevos);
+		
+		if(dao.importarAlmacenes(almacenes))System.out.println("Almacenes nuevos importados correctamente");
+		else System.out.println("Error al importar los almacenes");
+	}
+	
+	private static void exportarProductosSuperiores() {
+		List<Producto> productos = new ArrayList<Producto>();
+		
+		productos = dao.exportarProductosConPrecioElevado();
+		
+		GestionFicherosXML.exportarProductosCarosDOM(ficheroProductosPrecioElevado, productos);
+	}
+	
+	private static void importarProductosNuevos() {
+
+	    List<Producto> nuevos = GestionFicherosXML.importarNuevosProductos(ficheroProductosNuevos);
+
+	    System.out.println("\nProductos importados desde SAX:");
+	    for (Producto p : nuevos) {
+	        System.out.println(p);
+	    }
+
+	    System.out.println("Importación mediante SAX finalizada.");
+	}
+
 
 	private static int mostrarMenu() {
 		System.out.println("1. Insertar un nuevo producto"+
 						  "\n2. Actualizar el stock de un producto"+
 						  "\n3. Eliminar un producto"+
 						  "\n4. Buscar stock por debajo de 10"+
-						  "\n5. Exportar productos con stock bajo a fichero"+
-			              "\n6. Importar almacenes desde fichero"+
+			              "\n5. Importar almacenes desde fichero"+
+			              "\n6. Importar nuevos almacenes desde ficheroXML DOM"+
+			              "\n7. Exportar productos a un ficheroXML DOM"+
+			              "\n8. Importar nuevos productos desde ficheroXML SAX"+
 						  "\n0. Salir");
 		return teclado.nextInt();
 	}

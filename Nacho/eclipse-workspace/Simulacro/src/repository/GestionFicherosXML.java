@@ -6,6 +6,8 @@ import java.util.List;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
 import javax.xml.transform.OutputKeys;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
@@ -94,5 +96,26 @@ public class GestionFicherosXML {
 	            System.err.println("Error generando XML DOM: " + e.getMessage());
 	        }
 	 }
+	 
+	 public static List<Producto> importarNuevosProductos(File ficheroXML) {
+		    
+		    List<Producto> productos = new ArrayList<>();
+
+		    try {
+		        SAXParserFactory factory = SAXParserFactory.newInstance();
+		        SAXParser parser = factory.newSAXParser();
+
+		        ProductoHandler handler = new ProductoHandler(productos);
+
+		        parser.parse(ficheroXML, handler);
+
+		        System.out.println("XML procesado con SAX correctamente");
+
+		    } catch (Exception e) {
+		        System.err.println("Error leyendo XML SAX: " + e.getMessage());
+		    }
+
+		    return productos;
+		}
 	 
 }

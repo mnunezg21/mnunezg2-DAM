@@ -28,7 +28,6 @@ public class GestionFicheros {
     }
 	
 	public static List<Almacen> leerAlmacenes(File fichero) {
-
         List<Almacen> lista = new ArrayList<>();
 
         try (Scanner sc = new Scanner(fichero)) {

@@ -95,14 +95,15 @@ public class ProductoDAOImpl implements ProductoDAO {
 	
 	public boolean importarAlmacenes(List<Almacen> almacenes) {
 		int totalInsertado = 0;
-		String sql = "INSERT INTO almacen (nombre,ciudad,capacidad) VALUES (?,?,?)";
+		String sql = "INSERT INTO almacen (codigo,nombre,ciudad,capacidad) VALUES (?,?,?,?)";
 		try(Connection conn = ConexionBD.getConnection();
 			PreparedStatement prst = conn.prepareStatement(sql);){
 			
 			for(Almacen almacen : almacenes) {
-				prst.setString(1, almacen.getNombre());
-				prst.setString(2, almacen.getCiudad());
-				prst.setInt(3, almacen.getCapacidad());
+				prst.setString(1, almacen.getCodigo());
+				prst.setString(2, almacen.getNombre());
+				prst.setString(3, almacen.getCiudad());
+				prst.setInt(4, almacen.getCapacidad());
 				int filasAfectadas = prst.executeUpdate();
 				totalInsertado += filasAfectadas;
 			}
@@ -114,7 +115,28 @@ public class ProductoDAOImpl implements ProductoDAO {
 		}
 	}
 	
-	
+	public List<Producto> exportarProductosConPrecioElevado(){
+		List<Producto> listaProductos= new ArrayList<Producto>();
+		String sql = "SELECT * FROM producto WHERE precio >= 50";
+		try(
+			Connection conn = ConexionBD.getConnection();
+			Statement st = conn.createStatement();
+			ResultSet rs= st.executeQuery(sql)){
+			
+			while(rs.next()) {
+				Producto producto = new Producto(
+						rs.getInt("id_producto"),
+						rs.getString("nombre"),
+						rs.getDouble("precio"),
+						rs.getInt("stock"));
+				listaProductos.add(producto);
+			}
+		} catch(SQLException e){
+			System.err.println("Error al obtener los productos: "+e.getMessage());
+			return null;
+		}
+		return listaProductos;	
+	}
 	
 	@Override
 	public Producto obetenerPorId(int idProducto) {
@@ -137,8 +159,8 @@ public class ProductoDAOImpl implements ProductoDAO {
 			System.err.println("Error al obtener al producto: "+e.getMessage());
 			return null;
 		}
-		
 	}
+	
 
 	@Override
 	public List<Producto> obtenerTodosLosProductos() {
