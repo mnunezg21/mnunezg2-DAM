@@ -10,6 +10,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
@@ -44,17 +45,20 @@ public class Producto {
     )
     private List<Proveedor> proveedores;
     
+    @ManyToOne
+    @JoinColumn(name = "id_categoria")
+    private Categoria categoria;
+    
     
 	public Producto() {
 	}
 
 
-	public Producto(String nombre, int stock, double precio, Ubicacion ubicacion, List<Proveedor> proveedores) {
+	public Producto(String nombre, int stock, double precio, Ubicacion ubicacion) {
 		this.nombre = nombre;
 		this.stock = stock;
 		this.precio = precio;
 		this.ubicacion = ubicacion;
-		this.proveedores = null;
 	}
 
 

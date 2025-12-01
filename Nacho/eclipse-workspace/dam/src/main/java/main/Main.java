@@ -48,32 +48,23 @@ public class Main {
 
 
 	private static void guardarProductoCompleto() {
+		int id_producto;
+		String nombre;
+		int stock;
+		Double precio;
+		Ubicacion ubicacion = null;
 		
-		boolean bool=false;
-		boolean cambioRealizado;
+		System.out.println("Introduce el nombre del producto: ");
+		nombre = teclado.next();
+		System.out.println("Introduce el stock del producto: ");
+		stock = teclado.nextInt();
+		System.out.println("Introduce el precio: ");
+		precio = teclado.nextDouble();
+		System.out.println("Introduce el id de la ubicacion: ");
+		ubicacion = REPO.buscarUbicacion(teclado.nextInt());
+		Producto producto = new Producto(nombre,stock,precio,ubicacion);
 		
-		System.out.println("Introduce el id del cliente: ");
-		id_cliente = teclado.nextInt();
-		System.out.println("Introduciendo la fecha de realizacion del pedido... ");
-		fecha_pedido = java.time.LocalDate.now().toString();
-		System.out.println("Introduce el total: ");
-		total = teclado.nextFloat();
-		do {
-			System.out.println("Introduce el estado(PENDIENTE, ENVIADO, ENTREGADO o CANCELADO): ");
-			estado = teclado.nextLine();
-			if(estado.equalsIgnoreCase("PENDIENTE") || 
-			   estado.equalsIgnoreCase("ENVIADO")   || 
-			   estado.equalsIgnoreCase("ENTREGADO") || 
-			   estado.equalsIgnoreCase("CANCELADO")) {
-				
-				Pedido pedido =  new Pedido(id_cliente,fecha_pedido,total,estado);
-				
-				cambioRealizado = ventasDao.insertarPedido(id_cliente,pedido);
-				if (cambioRealizado) System.out.println("Pedido insertado");
-				else System.out.println("No se pudo insertar el pedido");
-				bool=true;
-			} else System.out.println("Introduce una de las opciones: ");
-		} while(!bool);
+		REPO.guardarProductoCompleto(producto);
 	}
 
 
@@ -84,7 +75,7 @@ public class Main {
 		System.out.println("Introduce el stock minimo: ");
 		stock_minimo=teclado.nextInt();
 		
-		pedidos = REPO.obtenerProductosEnRiesgo(stock_minimo);
+		productos = REPO.obtenerProductosEnRiesgo(stock_minimo);
 		
 		for (Producto producto : productos) {
 			System.out.println("Producto: "+producto.getIdProducto()+", con stock: "+producto.getStock()+", llega al stock minimo");
@@ -93,7 +84,14 @@ public class Main {
 
 
 	private static void asignarNuevoProveedor() {
-		boolean bool=false;
+		int id_producto;
+		int id_proveedor;
+		System.out.print("Dime el ID del producto a cambiar: ");
+		id_producto = teclado.nextInt();
+		System.out.print("Dime el ID del nuevo proveedor: ");
+		id_proveedor = teclado.nextInt();
+		
+		REPO.asignarNuevoProveedor(id_producto, id_proveedor);	
 	}
 
 
@@ -114,7 +112,15 @@ public class Main {
 						  "\n2. Consultar productos en riesgo"+
 						  "\n3. Asignar nuevo proveedor"+
 						  "\n4. Eliminar un producto y su ubicacion"+
+						  "\n5. Obtener Reporte Proveedores"+
+						  "\n6. Obtener Productos por pasillo"+
+						  "\n7. Crear categoría y asignar producto"+
+						  "\n8. Ver productos por categoria"+
+						  "\n9. Ver categorías vacías"+
+						  "\n4. Eliminar un producto y su ubicacion"+
 						  "\n0. Salir");
 		return teclado.nextInt();
 	}
+	
+	
 }
