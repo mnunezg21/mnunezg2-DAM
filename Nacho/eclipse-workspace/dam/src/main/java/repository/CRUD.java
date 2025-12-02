@@ -1,6 +1,4 @@
 package repository;
-
-import java.util.ArrayList;
 import java.util.List;
 
 import org.hibernate.Session;
@@ -106,6 +104,59 @@ public class CRUD {
 		return borrado;
 	}
 	
+	public List<Object[]> obtenerReporteProveedores() {
+		Session session = HibernateUtil.getSessionFactory().openSession();
+	    List<Object[]> reporte = null;
+
+	    try {
+	        session.beginTransaction();
+
+	        String hql =
+	            "SELECT pr.nombre, COUNT(p.id_producto) " +
+	            "FROM Proveedor pr " +
+	            "JOIN pr.productos p " +
+	            "GROUP BY pr.nombre " +
+	            "ORDER BY COUNT(p.id_producto) DESC";
+
+	        reporte = session.createQuery(hql, Object[].class).list();
+
+	        session.getTransaction().commit();
+	    } catch (Exception e) {
+	        session.getTransaction().rollback();
+	        System.err.println("Error obteniendo reporte de proveedores: " + e.getMessage());
+	    } finally {
+	        session.close();
+	    }
+
+	    return reporte;
+	}
+	
+	public List<Producto> obtenerProductosPorPasillo(String pasillo) {
+	    Session session = HibernateUtil.getSessionFactory().openSession();
+	    List<Producto> productos = null;
+
+	    try {
+	        session.beginTransaction();
+
+	        String hql = "FROM Producto p WHERE p.ubicacion.pasillo = :pasillo";
+
+	        productos = session.createQuery(hql, Producto.class)
+	                .setParameter("pasillo", pasillo)
+	                .list();
+
+	        session.getTransaction().commit();
+	    } catch (Exception e) {
+	        session.getTransaction().rollback();
+	        System.err.println("Error obteniendo productos por pasillo: " + e.getMessage());
+	    } finally {
+	        session.close();
+	    }
+
+	    return productos;
+	}
+	
+	
+	
 	public Ubicacion buscarUbicacion(int idUbicacion) {
 	    Session session = HibernateUtil.getSessionFactory().openSession();
 	    Ubicacion ubicacion = null;
@@ -129,4 +180,6 @@ public class CRUD {
 
 	    return ubicacion;
 	}
+	
+	
 }

@@ -1,3 +1,3 @@
-2025/12/01-12:36:41.651 66e0 Table #4: 12 entries OK
-2025/12/01-12:36:41.656 66e0 Archiving C:\Users\dam2\Documents\GitHub\mnunezg2-DAM\Nacho\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/MANIFEST-000001: OK
-2025/12/01-12:36:41.664 66e0 **** Repaired leveldb C:\Users\dam2\Documents\GitHub\mnunezg2-DAM\Nacho\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database; recovered 1 files; 313 bytes. Some data may have been lost. ****
+2025/12/02-08:43:05.403 3318 Reusing MANIFEST C:\Users\dam2\Documents\GitHub\mnunezg2-DAM\Nacho\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
+2025/12/02-08:43:05.404 3318 Recovering log #6
+2025/12/02-08:43:05.404 3318 Reusing old log C:\Users\dam2\Documents\GitHub\mnunezg2-DAM\Nacho\eclipse-workspace\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/000006.log 

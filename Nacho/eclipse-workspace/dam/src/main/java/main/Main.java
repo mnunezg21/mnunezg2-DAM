@@ -1,15 +1,11 @@
 package main;
 
-import java.sql.Date;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import org.hibernate.boot.model.source.spi.FetchCharacteristics;
 
 import modelo.Producto;
-import modelo.Proveedor;
 import modelo.Ubicacion;
 import repository.CRUD;
 
@@ -36,6 +32,21 @@ public class Main {
 			case 4:
 				eliminarProductoYUbicacion();
 				break;
+			case 5:
+				obtenerReporteProveedores();
+				break;
+			case 6:
+				obtenerProductoYUbicacion();
+				break;
+			case 7:
+				crearCategoria();
+				break;
+			case 8:
+				verProductosCategoria();
+				break;
+			case 9:
+				verCategoriasVacias();
+				break;
 			case 0:
 				System.out.println("Saliendo...");
 				break;
@@ -46,9 +57,7 @@ public class Main {
 		} while(opcion != 0);
 	}
 
-
 	private static void guardarProductoCompleto() {
-		int id_producto;
 		String nombre;
 		int stock;
 		Double precio;
@@ -106,7 +115,40 @@ public class Main {
 		if(bool)System.out.println("Producto eliminado"); 
 		else System.out.println("Producto no eliminado");
 	}
+	
+	private static void obtenerReporteProveedores() {
+		List<Object[]> proveedores = new ArrayList<Object[]>();
+		proveedores = REPO.obtenerReporteProveedores();
+		for (Object[] fila : proveedores) {
+		    System.out.println("Proveedor: " + fila[0] + " | Productos: " + fila[1]);
+		}
+	}
+	
+	private static void obtenerProductoYUbicacion() {
+		List<Producto> productos = null;
+		System.out.println("Dime el numero del pasillo por el que quieres buscar: ");
+		String pasillo = teclado.next();
+		productos = REPO.obtenerProductosPorPasillo(pasillo);
+		for (Producto producto : productos) {
+			System.out.println(producto);
+		}
+	}
+	
+	private static void crearCategoria() {
+		
+		
+	}
 
+	private static void verProductosCategoria() {
+		
+		
+	}
+	
+	private static void verCategoriasVacias() {
+		
+		
+	}
+	
 	private static int mostrarMenu() {
 		System.out.println("1. Crear nuevo producto completo"+
 						  "\n2. Consultar productos en riesgo"+
@@ -117,7 +159,6 @@ public class Main {
 						  "\n7. Crear categoría y asignar producto"+
 						  "\n8. Ver productos por categoria"+
 						  "\n9. Ver categorías vacías"+
-						  "\n4. Eliminar un producto y su ubicacion"+
 						  "\n0. Salir");
 		return teclado.nextInt();
 	}

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-    <fullyQualifiedTypeName name="ejemplo1.util.ConexionBD"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="ejemplo1.modelo.Alumno"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -45,12 +43,9 @@
     <fullyQualifiedTypeName name="java.time.Period"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="org.hibernate.boot.model.source.spi.FetchCharacteristics"/>
-    <fullyQualifiedTypeName name="modelo.Proveedor"/>
     <fullyQualifiedTypeName name="com.sun.swing.internal.plaf.basic.resources.basic"/>
     <fullyQualifiedTypeName name="repository.GestionFicherosXML"/>
     <fullyQualifiedTypeName name="java.net.Socket"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="jdk.internal.org.xml.sax.helpers.DefaultHandler"/>
     <fullyQualifiedTypeName name="repository.ProductoDAO"/>
     <fullyQualifiedTypeName name="repository.GestionFicheros"/>
@@ -59,5 +54,10 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="modelo.Ubicacion"/>
     <fullyQualifiedTypeName name="repository.CRUD"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="modelo.Proveedor"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="modelo.Producto"/>
 </qualifiedTypeNameHistroy>
