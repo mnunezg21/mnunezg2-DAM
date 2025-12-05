@@ -32,21 +32,13 @@ public class Ubicacion {
     private Producto producto;
 
 	public Ubicacion() {
+        this.fechaAdquisicion = LocalDate.now();
 	}
 
-	public Ubicacion(int idUbicacion, String pasillo, int estanteria,Producto producto) {
-		this.idUbicacion = idUbicacion;
+	public Ubicacion(String pasillo, int estanteria, LocalDate fechaAdquisicion) {
 		this.pasillo = pasillo;
 		this.estanteria = estanteria;
-		this.fechaAdquisicion = LocalDate.now();
-		this.producto = producto;
-	}
-
-	public Ubicacion(String pasillo, int estanteria, Producto producto) {
-		this.pasillo = pasillo;
-		this.estanteria = estanteria;
-		this.fechaAdquisicion = LocalDate.now();
-		this.producto = producto;
+		this.fechaAdquisicion = fechaAdquisicion; 
 	}
 
 	public int getIdUbicacion() {
@@ -92,6 +84,6 @@ public class Ubicacion {
 	@Override
 	public String toString() {
 		return "Ubicacion [idUbicacion=" + idUbicacion + ", pasillo=" + pasillo + ", estanteria=" + estanteria
-				+ ", fechaAdquisicion=" + fechaAdquisicion + ", producto=" + producto + "]";
+				+ ", fechaAdquisicion=" + fechaAdquisicion + "]";
 	}
 }

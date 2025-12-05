@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-
+import modelo.Categoria;
 import modelo.Producto;
 import modelo.Ubicacion;
 import repository.CRUD;
@@ -46,6 +46,12 @@ public class Main {
 				break;
 			case 9:
 				verCategoriasVacias();
+				break;
+			case 10:
+				moverProductosDeCategoria();
+				break;
+			case 11:
+				obtenerResumenCategoria();
 				break;
 			case 0:
 				System.out.println("Saliendo...");
@@ -135,31 +141,77 @@ public class Main {
 	}
 	
 	private static void crearCategoria() {
-		
+		REPO.crearCategoriaYAsignarProductos();
 		
 	}
 
 	private static void verProductosCategoria() {
-		
+		System.out.print("Introduce el nombre de la categoría a consultar: ");
+        String nombre = teclado.next();
+        List<Producto> productos = REPO.obtenerProductosDeCategoria(nombre);
+        if (productos != null && !productos.isEmpty()) {
+            System.out.println("--- Productos en '" + nombre + "' ---");
+            for (Producto p : productos) {
+                System.out.println("ID: " + p.getIdProducto() + ", Nombre: " + p.getNombre() + ", Precio: " + p.getPrecio());
+            }
+        } else {
+            System.out.println("No se encontraron productos o la categoría no existe.");
+        }
 		
 	}
 	
 	private static void verCategoriasVacias() {
-		
-		
+		List<Categoria> categorias = REPO.obtenerCategoriasVacias();
+        if (categorias != null && !categorias.isEmpty()) {
+            System.out.println("Categorías sin Productos: ");
+            for (Categoria c : categorias) {
+                System.out.println("ID: " + c.getId() + ", Nombre: " + c.getNombre()); // *CORRECCIÓN:* Usar getId()
+            }
+        } else {
+            System.out.println("No se encontraron categorías vacías.");
+        }
 	}
 	
+	private static void moverProductosDeCategoria() {
+        String catOrigen = "Electrónica";
+        String catDestino = "Domótica";
+        REPO.moverProductosDeCategoria(catOrigen, catDestino);
+    }
+	
+	private static void obtenerResumenCategoria() {
+        List<Object[]> resumen = REPO.obtenerResumenCategoria();
+        if (resumen != null && !resumen.isEmpty()) {
+            System.out.println("--- Resumen de Categorías ---");
+            System.out.printf("%-20s | %-10s | %-15s%n", "Nombre", "Cantidad", "Precio Promedio");
+            System.out.println("-----------------------------------------------------");
+            for (Object[] fila : resumen) {
+                String nombre = (String) fila[0];
+                Long cantidad = (Long) fila[1]; 
+                Double promedio = (Double) fila[2]; 
+                
+                String cantStr = (cantidad == null) ? "0" : String.valueOf(cantidad);
+                String promStr = (promedio == null) ? "N/A" : String.format("%.2f €", promedio);
+                
+                System.out.printf("%-20s | %-10s | %-15s%n", nombre, cantStr, promStr);
+            }
+        } else {
+            System.out.println("No se pudo obtener el resumen de categorías.");
+        }
+    }
+	
 	private static int mostrarMenu() {
-		System.out.println("1. Crear nuevo producto completo"+
-						  "\n2. Consultar productos en riesgo"+
-						  "\n3. Asignar nuevo proveedor"+
-						  "\n4. Eliminar un producto y su ubicacion"+
-						  "\n5. Obtener Reporte Proveedores"+
-						  "\n6. Obtener Productos por pasillo"+
-						  "\n7. Crear categoría y asignar producto"+
-						  "\n8. Ver productos por categoria"+
-						  "\n9. Ver categorías vacías"+
-						  "\n0. Salir");
+		System.out.println("1.  Crear nuevo producto completo"+
+						  "\n2.  Consultar productos en riesgo"+
+						  "\n3.  Asignar nuevo proveedor"+
+						  "\n4.  Eliminar un producto y su ubicacion"+
+						  "\n5.  Obtener Reporte Proveedores"+
+						  "\n6.  Obtener Productos por pasillo"+
+						  "\n7.  Crear categoría y asignar producto"+
+						  "\n8.  Ver productos por categoria"+
+						  "\n9.  Ver categorías vacías"+
+						  "\n10. Mover productos de Electrónica a Domótica" +
+                          "\n11. Obtener Resumen Categoría"+
+						  "\n0.  Salir");
 		return teclado.nextInt();
 	}
 	

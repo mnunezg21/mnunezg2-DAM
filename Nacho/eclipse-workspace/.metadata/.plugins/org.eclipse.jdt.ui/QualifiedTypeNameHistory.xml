@@ -38,7 +38,6 @@
     <fullyQualifiedTypeName name="java.lang.classfile.attribute.RuntimeInvisibleAnnotationsAttribute"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="ejercicios_14_11.ejercicio5.HiloMedia"/>
     <fullyQualifiedTypeName name="java.time.Period"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
@@ -49,9 +48,7 @@
     <fullyQualifiedTypeName name="jdk.internal.org.xml.sax.helpers.DefaultHandler"/>
     <fullyQualifiedTypeName name="repository.ProductoDAO"/>
     <fullyQualifiedTypeName name="repository.GestionFicheros"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="modelo.Ubicacion"/>
     <fullyQualifiedTypeName name="repository.CRUD"/>
     <fullyQualifiedTypeName name="java.security.PublicKey"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="modelo.Producto"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>
