@@ -1,0 +1,18 @@
+package com.antpaniagua.t402internalstorage.ui
+
+val fileNames: List<String> =
+    listOf("file1.txt", "file2.txt", "file3.txt", "file4.txt", "file5.txt")
+
+
+val loremText: List<String> =
+    listOf("Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        "Nisi ut aliquip ex ea commodo consequat.",
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.",
+        "Eu fugiat nulla pariatur.",
+        "Excepteur sint occaecat cupidatat non proident.",
+        "Sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.",
+        "Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias."
+    )

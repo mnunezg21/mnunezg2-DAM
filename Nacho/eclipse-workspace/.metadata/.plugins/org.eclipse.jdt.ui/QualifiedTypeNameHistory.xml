@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
-    <fullyQualifiedTypeName name="ejemplo1.modelo.Alumno"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="ventas.modelo.Cliente"/>
-    <fullyQualifiedTypeName name="ventas.dao.VentasDao"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.ForkJoinPool"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.CollectionTable"/>
     <fullyQualifiedTypeName name="jakarta.persistence.ManyToOne"/>
     <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Enumerated"/>
@@ -48,16 +38,26 @@
     <fullyQualifiedTypeName name="jdk.internal.org.xml.sax.helpers.DefaultHandler"/>
     <fullyQualifiedTypeName name="repository.ProductoDAO"/>
     <fullyQualifiedTypeName name="repository.GestionFicheros"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="modelo.Ubicacion"/>
-    <fullyQualifiedTypeName name="repository.CRUD"/>
     <fullyQualifiedTypeName name="java.security.PublicKey"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="modelo.Proveedor"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="modelo.Producto"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.VerifyError"/>
+    <fullyQualifiedTypeName name="repository.CRUD"/>
+    <fullyQualifiedTypeName name="modelo.MetadatosCancion"/>
+    <fullyQualifiedTypeName name="java.lang.foreign.AddressLayout"/>
+    <fullyQualifiedTypeName name="modelo.Playlist"/>
+    <fullyQualifiedTypeName name="java.security.PrivateKey"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.security.AlgorithmConstraints"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="modelo.Cancion"/>
+    <fullyQualifiedTypeName name="modelo.Artista"/>
 </qualifiedTypeNameHistroy>
