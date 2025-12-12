@@ -9,8 +9,12 @@ public class Restador extends Thread{
 	}
 
 	public void run() {
-		for (int i = 0; i < 1000; i++) {
-			c.dec();
-			System.out.println("Hola, soy " + this.getName() + ", mi contador vale " + c.valor());
-			}	}
+		for (int i = 0; i < 10; i++) {
+			try {
+				c.dec();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}	
+	}
 }

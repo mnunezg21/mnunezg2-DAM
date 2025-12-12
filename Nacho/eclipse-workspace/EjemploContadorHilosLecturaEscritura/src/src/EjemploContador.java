@@ -1,19 +1,20 @@
 package src;
 
-public class EjemploContador {
-	final static int nHebras = 20;
-	
+public class EjemploContador {	
 	public static void main(String[] args) {
-		// metodo principal
 		final Contador cont1 = new Contador(10);
-	
-		Usuario hebra[] = new Usuario[nHebras];
-		for (int i = 0; i < nHebras; i++) {
-			//crea hebras
-			hebra[i] = new Usuario("la hebra-" + i, cont1);
-	
-			// lanza hebras
-			hebra[i].start(); 
+		
+		Restador restador = new Restador("restador", cont1);
+		Sumador sumador = new Sumador("sumador", cont1);
+		
+		restador.start();
+		sumador.start();
+		
+		try {
+			restador.join();
+			sumador.join();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
 		}
 	}
 }
